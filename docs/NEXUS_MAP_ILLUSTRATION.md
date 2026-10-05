@@ -68,3 +68,5 @@ The Studio export dialog stalled. The geometry was recovered through Roblox’s 
 ## Remaining gameplay work
 
 The map is an explorable illustration with a return prompt. Museum displays have no collectible ownership, rewards or saved state. Special gravity, water locomotion, moving trains, timed collapse, active hazards, physical carrying, multiplayer acceptance and mobile performance remain unimplemented or unverified. The scene has not been published to Roblox live servers.
+
+After export, the main cloud Studio session reported **RCC-1026 / Unable to Connect to Server** and unloaded. The local model/place files preserve the built map; reopen the `.rbxl` through Open from File. This does not invalidate the earlier recorded installation, native walkthrough or engine geometry export. No cloud save/publication is confirmed.

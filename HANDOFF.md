@@ -22,7 +22,7 @@ The user asked to make the reviewed references into the game and illustrate the 
 
 ## State / limits
 - Branch stage3/command-bar-world-foundation; draft PR #3 carries the ongoing Command Bar world work. User reviews/merges; no main/force push.
-- Main Studio left in Edit with the Core camera view. Read native state before further writes; previous session state changed between calls.
+- Main installation/captures/export passed in Edit, but that cloud session subsequently unloaded with Studio error RCC-1026. Native UI showed “Unable to Connect to Server”; no cloud save/publication is confirmed. The local place/model files preserve the result, and the isolated test scene remains connected. Read current native state before further writes.
 - Computer-use native pipe closed while attempting Download a Copy; export recovered through documented SerializationService via official Studio MCP. Do not report a successful native .rbxl dialog export.
 - Physical carrying, collectible state/rewards, dimension gravity/water/machinery, timed collapse, saved collections/economy, multiplayer acceptance and mobile/network performance remain future work.
 - Stage 0 lifecycle/network integration remains separate. This is an explorable standalone visual map, not the complete production game.

@@ -523,5 +523,47 @@
     "Mobile/network performance",
     "Roblox-aware complete type analysis",
     "Full .rbxl reopened via Studio UI"
-  ]
+  ],
+  "lateStudioConnectionError": {
+    "errorCode": "RCC-1026",
+    "placeId": 87112781126474,
+    "observedUiText": "Unable to Connect to Server / Failed to connect / To view the backup from your last session, open a local copy.",
+    "note": "Observed after successful main-place installation, captures and engine geometry export. Main instance subsequently unloaded; no cloud save/publish was confirmed."
+  },
+  "latestMcpInstances": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"studios\":[{\"id\":\"bce2f579-a6eb-4bbf-9ed3-4bdfe36f4b6d\",\"name\":null},{\"id\":\"c11c7fcb-a6da-4128-bc39-c9a005318dc7\",\"name\":\"OddvaultCommandBarTest.rbxl\"}]}"
+      }
+    ],
+    "isError": false
+  },
+  "mainAfterExportState": {
+    "content": [
+      {
+        "type": "text",
+        "text": "The requested `studio_id` is not connected \u2014 that Roblox Studio instance may have been closed or its place unloaded. Call `list_roblox_studios` for the current instances, then continue on the one the user confirms (or the one whose `name` matches)."
+      }
+    ],
+    "isError": true
+  },
+  "testFinalState": {
+    "content": [
+      {
+        "type": "text",
+        "text": "- Current Studio Mode: Edit\n- Available DataModels: Edit\n- Focused DataModel in the viewport: Edit"
+      }
+    ],
+    "isError": false
+  },
+  "testFinalView": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"MapPreserved\":true,\"PlaceId\":0}"
+      }
+    ],
+    "isError": false
+  }
 }
