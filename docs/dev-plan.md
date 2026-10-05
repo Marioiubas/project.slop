@@ -7,6 +7,18 @@ This file is *how and in what order*. Process rules live in [how-to-work.md](how
 
 **Status legend:** `[ ]` todo · `[~]` in progress · `[x]` done. Update this file as work lands.
 
+**World-package work (5 October 2026):** the user separately authorized the supplied world brief's audit + Phase 1 and an offline Command Bar delivery. `stage3/command-bar-world-foundation` implements the allocator, room/socket kit, seeded assembly, route validation and portal return tests under `src/world/`. See `WORLD_ARCHITECTURE_AUDIT.md`, `docs/PHASE_1_VALIDATION.md` and ADR 0007. Stage 0 from PR #2 was merged at 64e49a9 during publication and is preserved here. This package does not advance the artifact/carry/playtest gates below.
+
+**Visual preparation before Nexus polish (user request, 5 October 2026):** see [Higgsfield pipeline](HIGGSFIELD_DIMENSION_VISUAL_PIPELINE.md). This is preproduction direction; it does not advance gameplay gates.
+
+- [x] Inspect live Higgsfield image/reference, Canvas, video and 3D capabilities.
+- [x] Prepare nine-column Dimension Bible, eight focused prompts/translation notes, and preserved supplied reference boards.
+- [x] Obtain explicit confirmation for the eight-image paid set; all eight generated and reviewed, observed credit decrease four. A–F accepted for direction; G/H have limited component acceptance with corrections.
+- [x] Use official Roblox Studio MCP to execute the installer and verify one-client entry, route navigation, extraction and four-cell exhaustion/cleanup in the isolated test place.
+- [x] Translate the approved references into an explorable native Studio map, seven artifact models and level-access museum; see [map scope](NEXUS_MAP_ILLUSTRATION.md).
+- [x] Native 383-position promenade check: 3,447 floor rays, no floor gaps and no colliding blockers for a 24 × 24 cargo proxy. Physical carrying remains a separate gate.
+- [ ] Update accepted concepts with provenance and measured Studio traversal/cargo/multiplayer/mobile results before an art pass.
+
 ---
 
 ## Stage 0 — Foundations (before any gameplay)
@@ -66,7 +78,7 @@ Goal: data-driven artifacts with genuinely different behaviour.
 Goal: a 2–5 minute expedition with rising danger and a greed/risk choice.
 
 - [ ] Rift definition schema (theme, room pool, hazards, artifact pool, difficulty, extraction rules)
-- [ ] Modular room assembly (handbuilt rooms, randomized chain) — first Rift only
+- [~] Modular room assembly (handbuilt rooms, randomized chain) — standalone Phase 1 package implemented and one-client Studio MCP route verified; PR integration, actual cargo, multiplayer and mobile gates pending
 - [ ] Rift-specific rule (the "gameplay distinction", e.g. altered gravity or unstable floors)
 - [ ] Instability clock: environment worsens over time, readable without popups
 - [ ] 2–3 hazards + optionally one wandering threat

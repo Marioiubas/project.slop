@@ -1,49 +1,35 @@
-# HANDOFF — 2026-10-05 — Stage 0: Foundations (skeleton, network layer, tests, tooling)
+# HANDOFF — 2026-10-05 — Reference map illustrated in Roblox Studio
 
-## Goal of this session
-Implement all of Stage 0 and verify it (build, lint, types, tests, cold clone, Studio).
+## Latest authorized task
+The user asked to make the reviewed references into the game and illustrate the map in Roblox Studio. Earlier instructions authorize Lua, Command Bar delivery and GitHub push; the user explicitly requested Studio MCP. This extends the visual geometry scope, without declaring the complete master blueprint implemented.
 
-## What was done
-- Rojo project `default.project.json` → `src/{shared,server,client}`; configs `stylua.toml`, `selene.toml`, `.luaurc`, `wally.toml` (no deps yet), `.gitignore`, `.gitattributes` (LF everywhere).
-- Shared modules (`src/shared/`): `Config` (deep-frozen tunables), `Types`, `Log`, `Signal`, `Janitor`, `Safe` (xpcall + traceback), `Validate` (composable arg/shape validators), `Lifecycle` (dependency-ordered `init` then `start`).
-- Network (ADR 0006): `Remotes.luau` registry (`Intent`/`Request`/`Notify`), server `Services/NetworkService` (rate limit → validate → handler), `server/RateLimiter`, client `Controllers/NetworkController`; `Ping` request wired end to end via `DiagnosticsService`/`DiagnosticsController`. Entry points: `server/Main.server.luau`, `client/Main.client.luau`.
-- Content skeleton: `Content/{Rarities (5 tiers), Artifacts (empty), Schema}`, `ContentValidator`, `tools/validate_content`.
-- Tests (ADR 0005): Lune pinned in `rokit.toml` (user trusted it); `tools/lib/rojo_loader.luau` loads real modules via `rojo sourcemap`; `tests/lib/testkit.luau`; 10 specs / 116 tests in `tests/specs/`. Mutation-checked: deliberately broken modules make them fail.
-- `tools/check` (single gate), `tools/typecheck`, `README.md`; ADRs 0004/0005/0006; `how-to-work.md` + `CLAUDE.md` updated.
+## Delivered
+- Native `VisualKit` and `NexusBuilder` source: nine illustrated regions, solid promenade network, Core, Kitchen props, Aquarium dome/whale/jellyfish, Toybox train/bricks/bear/castle, inverted City, Deep Fracture, crossover, rare room and extraction.
+- Seven museum artifact models, level-access gallery, Atlas and circular portal arch. Displays have no ownership/reward state.
+- Functional server-validated illustrated-map return prompt. The procedural kitchen expedition and its existing transition/cleanup logic remain available through the hub portal.
+- Updated offline Command Bar bundle from thirteen current scripts. Optional daylight settings preserve previous values as world attributes; five-root reinstall backup remains intact.
+- Installed through official Studio MCP first in the isolated test place, then main GRAB THE WEIRD! (87112781126474). Original Baseplate/SpawnLocation preserved in ServerStorage/OddvaultBackups/SceneBeforeDimensionMap_*; nothing published to Roblox.
+- Engine-exported geometry `assets/OddvaultDimensionMap.rbxm` (52,993 bytes), verified by engine deserialization. Rojo-built directly openable place `assets/OddvaultDimensionMap.rbxl` includes that geometry and current source. `map.project.json` reproduces it. Manifest records hashes/provenance.
+- Native screenshots and evidence under `docs/validation/nexus-map-*`; explanation in `docs/NEXUS_MAP_ILLUSTRATION.md`. Reviewed reference notes link to their Studio translations.
 
-## State of the repo
-- Branch: `stage0/rojo-skeleton` (from `chore/planning-docs`; neither merged to `main`). Implementation commit `27a0c31`; docs/handoff in the commits after it. **Pushed to `origin/stage0/rojo-skeleton`; no PR opened yet.**
-- Builds: yes   Lint: pass (stylua, selene)   Types: pass (luau-lsp, old and new solver)   Tests: pass (116/116)
-- Cold clone: fresh clone + `rokit install` + `lune run tools/check` → all 6 steps pass.
-- Verified in Studio: yes, manually via MCP. The Rojo plugin was connected to `rojo serve` and synced the full tree. Play (server+client) booted with no errors, `Ping` round trip OK (steady ~50 ms), and string/negative/NaN/extra/missing args plus over-burst calls were rejected with throttled server warnings.
+## Verification
+- Native Edit clearance: nine regions, seven museum displays, 1,028 anchored map BaseParts. 383 sampled positions / 3,447 floor rays, no gaps and no colliding blockers for the 24x24x24 proxy along the defined promenades.
+- Fifteen native normal-speed navigation steps reached all illustrated areas with the player alive. Actual Client ProximityPrompt hold API invoked extraction and returned to the hub at approximately (0,3,-60).
+- Keyboard attempt did not activate while viewport focus was Server; keyboard activation is not claimed verified. Initial test player was already in a procedural Rift; debug cleanup returned it home before the successful walk.
+- Core gate: formatting/lint/default build, 116 tests and content pass. Full Roblox-aware types are SKIPPED because definitions are unavailable.
+- World gate: exact bundle parity, compiler/pure strict analysis, 4,029 invariants and 47,865 engine-double checks pass.
+- Lune deserialized the final place binary and verified nine regions / all thirteen Source strings against current Git files. The complete .rbxl was not reopened through Studio UI; its geometry/runtime were tested in the existing test place.
 
-## Not done / stubbed / known broken
-- `Artifacts` content is empty on purpose (Stage 1 adds the first, Stage 2 widens the schema).
-- `NetworkService`, `NetworkController`, `Main.*` need Roblox APIs, so they are verified only by the manual Studio playtest above, not unit tests. Only `Request` (`Ping`) was exercised at runtime; the `Intent` and `Notify` paths exist but have not been run.
-- Wally packages not mapped in the project (nothing to install yet; mapping needs a `$path` that exists). Stage 4 adds ProfileService + mapping.
-- `tools/typecheck` needs a Roblox type-definitions file that is not in the repo (it found one from the Antigravity luau-lsp extension). Without it the step prints `SKIPPED`, and the gate still passes.
+## State / limits
+- Branch stage3/command-bar-world-foundation; draft PR #3 carries the ongoing Command Bar world work. User reviews/merges; no main/force push.
+- Main installation/captures/export passed in Edit, but that cloud session subsequently unloaded with Studio error RCC-1026. Native UI showed “Unable to Connect to Server”; no cloud save/publication is confirmed. The local place/model files preserve the result, and the isolated test scene remains connected. Read current native state before further writes.
+- Computer-use native pipe closed while attempting Download a Copy; export recovered through documented SerializationService via official Studio MCP. Do not report a successful native .rbxl dialog export.
+- Physical carrying, collectible state/rewards, dimension gravity/water/machinery, timed collapse, saved collections/economy, multiplayer acceptance and mobile/network performance remain future work.
+- Stage 0 lifecycle/network integration remains separate. This is an explorable standalone visual map, not the complete production game.
+- Existing eight Higgsfield references and Canvas remain intact; no additional paid generation or imported 3D assets in this pass.
 
-## Decisions made (and why)
-- ADR [0004](docs/adr/0004-rojo-vs-studio-split.md) code vs `assets/`; [0005](docs/adr/0005-test-framework.md) Lune tests; [0006](docs/adr/0006-network-layer-and-bootstrap.md) remote registry + Lifecycle.
-- `Safe.call` wraps xpcall: one place for tracebacks and it sidesteps a Luau typing quirk with `xpcall`/`pcall` on functions that return nothing.
+## Read first
+README.md; docs/NEXUS_MAP_ILLUSTRATION.md; docs/validation/nexus-map-evidence.json; assets/nexus-map-manifest.json; docs/dev-plan.md; ADR 0007.
 
-## Noticed (out of scope, not acted on)
-- Studio's open place is still the default Baseplate + SpawnLocation; the Rojo-synced tree is unsaved in that session. Stage 1's hub replaces the baseplate.
-- First `Ping` after Play reads ~2 s (server warm-up); disable with `Config.Debug.PingOnStart` if noisy.
-- luau-lsp 1.70.1 rejects `declare class` definition files from older releases; `tools/typecheck` converts them to `declare extern type`.
-- `chore/planning-docs` already exists on `origin` (the previous handoff said unpushed).
-
-## USER ACTION needed
-- Review/merge `chore/planning-docs`, then `stage0/rojo-skeleton` (or tell Claude to open the PR(s); ADR 0003). Compare link: https://github.com/Marioiubas/project.slop/pull/new/stage0/rojo-skeleton
-- Save/publish the Studio place when you want the Rojo-synced scripts persisted there.
-- Luau Language Server 1.70.1 is now installed in VS Code and Cursor (Antigravity still has 1.66.0). It downloads Roblox type definitions the first time it opens a Roblox project; `tools/typecheck` picks them up automatically.
-
-## Next step (exactly)
-1. New branch `stage1/hub-greybox` (from `main` once merged, else from `stage0/rojo-skeleton`). Run `lune run tools/check` first to confirm a green baseline.
-2. Stage 1, first group in `docs/dev-plan.md`: hub greybox (spawn facing a central portal) + portal moving the player into a Rift arena in the same place (ADR 0001). Author geometry in Studio, export to `assets/` per ADR 0004 (tags/attributes, no scripts in assets). New server logic as a `Services/` unit; any remote goes in `src/shared/Remotes.luau`.
-
-## Files to read first next time
-- `docs/how-to-work.md`, `docs/dev-plan.md` (Stage 1), `README.md`, ADRs 0001/0004/0006, blueprint "First-Time User Experience" and "Procedural Rift System".
-
-## Plan status
-Stage 0: 10/10 items done. Gate met? Yes (cold clone, 2026-10-05).
+## Next implementation work
+Integrate world startup with the Stage 0 lifecycle and remote registry, then implement actual artifact/carry rules and validate cargo, multiplayer and device behavior. Refresh the engine geometry snapshot when source recipes change.

@@ -19,3 +19,7 @@ Thumbs.db
 
 # Claude Code per-machine files
 .claude/settings.local.json
+
+# Portable world build/tests
+__pycache__/
+tests/.acceptance-*.luau

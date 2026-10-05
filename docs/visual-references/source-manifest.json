@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-05",
+  "source": "user-provided artwork",
+  "references": [
+    {
+      "file": "../art/world-board-1.png",
+      "source_filename": "ChatGPT Image 5 Oct 2026, 16_36_46-4.png",
+      "sha256": "b9e6aa8e6d9eaf84fd2e2c88bc1adabfaf5485b4fcff569e630f3bc0173e7eee",
+      "size_bytes": 3120346,
+      "width": 1536,
+      "height": 1024,
+      "modified": false
+    },
+    {
+      "file": "../art/world-board-2.png",
+      "source_filename": "ChatGPT Image 5 Oct 2026, 16_36_45-3.png",
+      "sha256": "ea941edc228c59c8528a2706b1d9901b16868b75e3956759fbadde36a407ec45",
+      "size_bytes": 2826557,
+      "width": 1678,
+      "height": 937,
+      "modified": false
+    },
+    {
+      "file": "../art/world-board-3.png",
+      "source_filename": "ChatGPT Image 5 Oct 2026, 16_36_42-2.png",
+      "sha256": "074a37df0675ca1c52baf9c58d5ff6c50bfb4d428dcc47163c179b33b4446ecc",
+      "size_bytes": 2988159,
+      "width": 1536,
+      "height": 1024,
+      "modified": false
+    },
+    {
+      "file": "../art/world-board-4.png",
+      "source_filename": "ChatGPT Image 5 Oct 2026, 16_36_39-1.png",
+      "sha256": "45ebcbb89414464a5966a0dff01a83618952fccfe935e0225f2993dc77d7638f",
+      "size_bytes": 3030149,
+      "width": 1536,
+      "height": 1024,
+      "modified": false
+    }
+  ],
+  "duplicate_aliases": {
+    "ChatGPT Image 5 Oct 2026, 16_33_35.png": "../art/world-board-3.png",
+    "ChatGPT Image 5 Oct 2026, 16_33_12.png": "../art/world-board-4.png"
+  }
+}
