@@ -1,0 +1,23 @@
+name: Validate world foundation
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - name: Build official Luau 0.741 compiler and runtime
+        run: |
+          git clone --depth 1 --branch 0.741 https://github.com/luau-lang/luau.git "$RUNNER_TEMP/oddvault-luau"
+          test "$(git -C "$RUNNER_TEMP/oddvault-luau" rev-parse HEAD)" = "2d88f9b5facaa9e4ec91247b39ae8251bd49a244"
+          cmake -S "$RUNNER_TEMP/oddvault-luau" -B "$RUNNER_TEMP/oddvault-luau/build" -DCMAKE_BUILD_TYPE=Release -DLUAU_BUILD_TESTS=OFF
+          cmake --build "$RUNNER_TEMP/oddvault-luau/build" --target Luau.Repl.CLI Luau.Compile.CLI Luau.Analyze.CLI -j 2
+      - name: Compile, check bundle parity and run world tests
+        run: python3 tools/run_tests.py --luau "$RUNNER_TEMP/oddvault-luau/build/luau" --compiler "$RUNNER_TEMP/oddvault-luau/build/luau-compile" --analyzer "$RUNNER_TEMP/oddvault-luau/build/luau-analyze"

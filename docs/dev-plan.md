@@ -7,6 +7,8 @@ This file is *how and in what order*. Process rules live in [how-to-work.md](how
 
 **Status legend:** `[ ]` todo · `[~]` in progress · `[x]` done. Update this file as work lands.
 
+**World-package work (5 October 2026):** the user separately authorized the supplied world brief's audit + Phase 1 and an offline Command Bar delivery. `stage3/command-bar-world-foundation` implements the allocator, room/socket kit, seeded assembly, route validation and portal return tests under `src/world/`. See `WORLD_ARCHITECTURE_AUDIT.md`, `docs/PHASE_1_VALIDATION.md` and ADR 0007. Stage 0 remains separate in PR #2. This package does not advance the artifact/carry/playtest gates below.
+
 ---
 
 ## Stage 0 — Foundations (before any gameplay)
@@ -66,7 +68,7 @@ Goal: data-driven artifacts with genuinely different behaviour.
 Goal: a 2–5 minute expedition with rising danger and a greed/risk choice.
 
 - [ ] Rift definition schema (theme, room pool, hazards, artifact pool, difficulty, extraction rules)
-- [ ] Modular room assembly (handbuilt rooms, randomized chain) — first Rift only
+- [~] Modular room assembly (handbuilt rooms, randomized chain) — standalone Phase 1 world package implemented/tested; PR integration + Studio playtest pending
 - [ ] Rift-specific rule (the "gameplay distinction", e.g. altered gravity or unstable floors)
 - [ ] Instability clock: environment worsens over time, readable without popups
 - [ ] 2–3 hazards + optionally one wandering threat

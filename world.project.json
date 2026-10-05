@@ -1,0 +1,29 @@
+{
+  "name": "OddvaultWorldFoundation",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "OddvaultShared": { "$path": "src/world/shared" }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "OddvaultServer": { "$path": "src/world/server" }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "OddvaultClient": { "$path": "src/world/client/WorldClient.client.lua" }
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "StreamingEnabled": true,
+        "StreamingMinRadius": 64,
+        "StreamingTargetRadius": 384
+      }
+    }
+  }
+}
