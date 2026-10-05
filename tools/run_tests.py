@@ -25,7 +25,7 @@ with tempfile.NamedTemporaryFile(mode="w", suffix=".luau", dir=ROOT / "tests", p
     runner = Path(handle.name)
     handle.write('local Mock = require("./engine_mock")\nlocal env = Mock.new()\n')
     handle.write("local installer = assert(loadstring(" + literal(bundle) + ', "OddvaultCommandBar"))\nsetfenv(installer, env)\ninstaller()\n')
-    handle.write((ROOT / "tests/acceptance_body.luau").read_text())
+    handle.write("local acceptance = assert(loadstring(" + literal((ROOT / "tests/acceptance_body.luau").read_text()) + ", \"WorldAcceptance\"))\nacceptance()(env, installer)\n")
 try:
     subprocess.run([args.luau, str(runner)], check=True)
 finally:

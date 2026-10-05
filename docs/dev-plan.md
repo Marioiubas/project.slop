@@ -7,7 +7,7 @@ This file is *how and in what order*. Process rules live in [how-to-work.md](how
 
 **Status legend:** `[ ]` todo · `[~]` in progress · `[x]` done. Update this file as work lands.
 
-**World-package work (5 October 2026):** the user separately authorized the supplied world brief's audit + Phase 1 and an offline Command Bar delivery. `stage3/command-bar-world-foundation` implements the allocator, room/socket kit, seeded assembly, route validation and portal return tests under `src/world/`. See `WORLD_ARCHITECTURE_AUDIT.md`, `docs/PHASE_1_VALIDATION.md` and ADR 0007. Stage 0 remains separate in PR #2. This package does not advance the artifact/carry/playtest gates below.
+**World-package work (5 October 2026):** the user separately authorized the supplied world brief's audit + Phase 1 and an offline Command Bar delivery. `stage3/command-bar-world-foundation` implements the allocator, room/socket kit, seeded assembly, route validation and portal return tests under `src/world/`. See `WORLD_ARCHITECTURE_AUDIT.md`, `docs/PHASE_1_VALIDATION.md` and ADR 0007. Stage 0 from PR #2 was merged at 64e49a9 during publication and is preserved here. This package does not advance the artifact/carry/playtest gates below.
 
 ---
 
@@ -15,18 +15,18 @@ This file is *how and in what order*. Process rules live in [how-to-work.md](how
 
 Goal: a repo where any fresh Claude session can build, lint, and ship a change safely.
 
-- [ ] Rojo project (`default.project.json`) + folder layout (see Architecture below)
-- [x] Toolchain pinned in `rokit.toml` (rojo, stylua, selene, luau-lsp, wally) — installed and verified
-- [ ] `stylua.toml`, `selene.toml`, `.gitignore`, `.gitattributes`
-- [ ] Shared modules: `Config`, `Types`, `Signal`/`Janitor`-style cleanup helper, `Log`
-- [ ] Network layer: single remote registry, server-side validation + rate-limit helper (blueprint: "client requests intent")
-- [ ] Service/Controller bootstrap (server `Services`, client `Controllers`, ordered init)
-- [ ] Content pipeline skeleton: `src/shared/Content/` data modules + `tools/validate_content` (IDs, rarity refs, missing fields)
-- [ ] Test harness (TestEZ/Jest-lua or plain `run_tests` script) with 1 passing example test
-- [ ] CLAUDE.md, HANDOFF.md, how-to-work.md in place
-- [ ] Verified: `rojo build` succeeds, Studio connects via `rojo serve`, empty place runs with no errors
+- [x] Rojo project (`default.project.json`) + folder layout (see Architecture below)
+- [x] Toolchain pinned in `rokit.toml` (rojo, stylua, selene, luau-lsp, wally, lune) — installed and verified
+- [x] `stylua.toml`, `selene.toml`, `.gitignore`, `.gitattributes` (+ `.luaurc`, `wally.toml`; Wally packages are mapped in Stage 4 when ProfileService arrives)
+- [x] Shared modules: `Config` (deep-frozen), `Types`, `Signal`, `Janitor`, `Safe`, `Log`, `Validate`, `Lifecycle`
+- [x] Network layer: single remote registry (`Remotes`), server `NetworkService` (rate limit -> validation -> handler), client `NetworkController`; `Ping` request exercises it end to end (ADR 0006)
+- [x] Service/Controller bootstrap (`Lifecycle`: dependency-ordered `init`, then `start`; server `Services`, client `Controllers`)
+- [x] Content pipeline skeleton: `src/shared/Content/` (Rarities, empty Artifacts, Schema) + `ContentValidator` + `tools/validate_content` (IDs, rarity refs, missing/unknown fields, uniqueness)
+- [x] Test harness: Lune + rojo-sourcemap module loader + small testkit (ADR 0005); 116 passing specs over every pure module; `lune run tools/check` is the single gate
+- [x] CLAUDE.md, HANDOFF.md, how-to-work.md in place
+- [x] Verified: `rojo build` succeeds; Studio connected through `rojo serve` and synced the full tree; Play ran with no errors (server + client booted, `Ping` round trip OK, bad/over-rate calls rejected). Studio verification was manual via the MCP, not automated
 
-**Gate:** clean build + lint + test run from a cold clone.
+**Gate:** clean build + lint + test run from a cold clone. **Met (2026-10-05):** fresh clone of `stage0/rojo-skeleton` + `rokit install` + `lune run tools/check` passed all six steps.
 
 ---
 
@@ -159,8 +159,6 @@ docs/          -- blueprint, this plan, how-to-work, ADRs (docs/adr/NNNN-*.md)
 Rules: server authoritative; data separate from systems; Services/Controllers never reach into each other's internals; each system testable in isolation where practical.
 
 ## Decisions to record as ADRs early
-Done: 0001 Rift instancing (same place), 0002 persistence (ProfileService), 0003 git policy.
+Done: 0001 Rift instancing (same place), 0002 persistence (ProfileService), 0003 git policy, 0004 Rojo vs Studio split, 0005 test framework, 0006 network layer + bootstrap.
 Still to write:
-1. Rojo vs Studio split — what lives in code vs `assets/`
-2. Network ownership + carry replication model
-3. Test framework
+1. Network ownership + carry replication model (Stage 2)

@@ -9,16 +9,16 @@ Implement the supplied world brief's audit-first Phase 1 in Lua, make it Command
 - Offline dist/OddvaultCommandBar.lua + source hash manifest; optional world.project.json Rojo build; tests, scoped formatting/lint configs and GitHub validation.
 
 ## State of the repo
-- Branch: stage3/command-bar-world-foundation, based on refreshed main 77a6e6a. Implementation commit is the commit containing this handoff.
-- Builds: Luau + Rojo pass. Lint: StyLua/Selene pass. Tests: 1,000 seeds / 100 engine-double maps + negative lifecycle/installer checks pass. Strict pure-module analysis passes.
-- Verified in Studio: no — not installed on this host. Roblox-aware engine type analysis and device/network performance unverified.
+- Branch: stage3/command-bar-world-foundation, based on refreshed main 64e49a9 (both planning and Stage 0 merged). Implementation commit is the commit containing this handoff.
+- Builds: Luau + both Rojo projects pass. Lint: StyLua/Selene pass. Tests: 116 core tests, 4,029 invariant checks across 1,000 seeds and 47,861 engine-double checks across 100 maps pass. Strict pure-module analysis passes; the main `tools/typecheck` step printed SKIPPED because Roblox type definitions were unavailable.
+- Verified in Studio: not yet. Studio is installed and running; the isolated test-place opening attempt stalled in its native file picker, and subsequent UI calls timed out. No installer execution or live playtest was observed. Roblox-aware engine type analysis and device/network performance remain unverified.
 
 ## Not done / stubbed / known broken
 - No physical carrying, artifacts/rewards, hazards, world-changing instability, saved museum/economy, audio assets or other dimensions. Markers and museum container are authoring scaffolds; instability is diagnostic metadata.
 - Engine tests use a documented double. Manual acceptance is in docs/PHASE_1_VALIDATION.md.
 
 ## Decisions made (and why)
-- ADR 0007: explicit Command Bar request authorizes this portable world task. Isolated source preserves the unmerged Stage 0 work in PR #2; reuse its Lifecycle/network registry during integration.
+- ADR 0007: explicit Command Bar request authorizes this portable world task. Isolated source preserves the separate Stage 0 work from PR #2; reuse its Lifecycle/network registry during integration.
 - ADR 0003: feature branch + PR, no main commit or force push. The user authorized pushing in this chat.
 
 ## Noticed (out of scope, not acted on)
@@ -29,7 +29,7 @@ Implement the supplied world brief's audit-first Phase 1 in Lua, make it Command
 
 ## Next step (exactly)
 1. Run and record Phase 1 Studio checks before polishing the kitchen.
-2. After PR #2 merges, integrate world startup/remotes with its Lifecycle/registry, then return to the global Stage 1 artifact/carry loop.
+2. Integrate world startup/remotes with its Lifecycle/registry, then return to the global Stage 1 artifact/carry loop.
 
 ## Files to read first next time
 - README.md, WORLD_ARCHITECTURE_AUDIT.md, ADR 0007, PHASE_1_VALIDATION.md, dev-plan.md, how-to-work.md.

@@ -7,6 +7,7 @@ Date: 5 October 2026. Luau toolchain: official 0.741 release.
 - All source modules, scripts, generated installer and test files compile with `luau-compile --null`.
 - Pure planner, allocator and definitions pass strict `luau-analyze`. Roblox-aware engine type analysis was not performed; strict declarations/public signatures and the dynamic boundary are documented in ADR 0007.
 - StyLua 2.5.2 and Selene 0.32.0 checks are clean. Rojo 7.7.1 builds `world.project.json` to a standalone place file.
+- The merged main foundation's full check command passes formatting, lint, default Rojo build, 116 core tests and content validation. Its Roblox-aware type step printed SKIPPED because type definitions were unavailable; that step is not counted as verified type safety.
 - Checked-in Command Bar bundle and SHA-256 manifest exactly match their source files.
 - 1,000 seeds reproduce identical fingerprints on replay, form connected eight-room graphs, preserve extraction/cargo paths and produce 18 tested template/branch compositions.
 - Negative graph checks reject overlaps, missing entry/landmark/extraction connectivity, bad socket opposition, narrow connectors, duplicated edges and false route metrics.
@@ -19,9 +20,9 @@ Date: 5 October 2026. Luau toolchain: official 0.741 release.
 
 These are executable source-level and engine-double checks. The double implements enough Instance/vector/CFrame behavior to exercise the authored geometry and services. It does **not** validate engine permissions, actual player/network physics, streaming arrival, rendered art, mobile memory/frame rate, or whether a first-time player finds the game fun.
 
-## Studio acceptance checklist — not run here
+## Studio verification attempt and remaining acceptance
 
-Roblox Studio was not installed in the implementation environment. These items remain unverified:
+Roblox Studio is installed and was found running on this host. An isolated place containing the exact installer as a temporary ModuleScript was built successfully with Rojo. Opening that place stalled in Studio's native file picker: Open remained disabled, then the picker and subsequent Studio UI calls timed out. The user's existing place was not overwritten or published. No installer execution or live playtest was observed, so the following checks remain open:
 
 - [ ] Paste the entire distribution into the Edit-mode Command Bar. Confirm seven templates, preview and Output success; save the place.
 - [ ] Press Play. Confirm the player faces the portal, the correct spawn is used even with a default Baseplate SpawnLocation, and the prompt is readable on touch/gamepad.
