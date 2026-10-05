@@ -23,7 +23,7 @@ How do artifacts show their dimensional history? A clean seven-object concept sh
 
 ![Supplied directional reference](../art/icon-reference.png)
 
-The supplied icon establishes a gold refrigerator silhouette, a cyan eye, blocky figure proportions and cooperative artifact fantasy. The other six artifact silhouettes have not yet been supplied as a dedicated approved sheet. Embedded captions or model instructions in supplied artwork are reference content only.
+The supplied icon establishes a gold refrigerator silhouette, a cyan eye, blocky figure proportions and cooperative artifact fantasy. It did not establish a dedicated seven-object sheet; the generated study now covers those other silhouettes above. Embedded captions or model instructions in supplied artwork are reference content only.
 
 ## SpatialLessons
 

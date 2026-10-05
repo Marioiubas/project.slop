@@ -1,40 +1,41 @@
-# HANDOFF — 2026-10-05 — Higgsfield visual preparation before Nexus polish
+# HANDOFF — 2026-10-05 — Reviewed dimension references and native Studio MCP verification
 
 ## Goal of this session
-Inspect Higgsfield, prepare a curated visual bible and convert concepts into level-design notes before polishing the Fracture Nexus. Stop before paid generation until explicit confirmation.
+Complete the Higgsfield visual pipeline before Nexus polish, then use Roblox Studio MCP as requested. The user approved the prepared eight-image set (“i approve everything”).
 
 ## What was done
-- Live image/reference, Canvas, video and 3D discovery; proposed GPT Image 2.5 / Flare / medium / 1k, eight outputs, estimated four credits.
-- Private Dimension Bible Canvas: nine columns, eight generation nodes, prompt/image links, copy/avoid notes, source references; no generation started.
-- docs/HIGGSFIELD_DIMENSION_VISUAL_PIPELINE.md and eight pending design notes plus exact prompt/node plan in docs/visual-references/.
-- Preserved four unique newly supplied world boards unchanged; two other files were byte-identical duplicates. Original icon/thumbnail retained. No runtime/Studio assets changed.
+- Eight GPT Image 2.5 / Flare / medium / 1k references generated, saved unchanged under docs/visual-references/generated, and inspected individually. Observed credit decrease: four.
+- A–F accepted for greybox direction with corrections; G composition only (museum cargo access must change), H silhouettes only (scale/contact geometry unproved). Each note records observations, proposed level data, job/hash and verdict.
+- Nine-column private Dimension Bible now contains actual outputs, source references, successful prompts and review notes; the original failed Canvas recipes remain documented.
+- Official configured Roblox Studio MCP connected directly through StudioMCP stdio (server 1.0.0). Test writes targeted only OddvaultCommandBarTest.rbxl, PlaceId 0.
+- Exact installer/source parity, seven real templates, five-root backup, one-client entry/main-route navigation/extraction/cleanup, four-cell exhaustion/cleanup and native captures recorded in docs/PHASE_1_VALIDATION.md and docs/validation/.
 
 ## State of the repo
-- Branch: stage3/command-bar-world-foundation. World implementation at 197c596; its final push/PR CI passed. Visual-preparation changes are the commit containing this handoff.
-- This documentation update passes formatting, lint, default Rojo build, 116 core tests and content validation. The unchanged world package previously passed 4,029 invariant checks and 47,865 engine-double checks; its final-commit GitHub checks also run on this update.
-- Main Roblox-aware type check previously printed SKIPPED (definitions unavailable). This is not verified engine type safety.
-- Studio: the world installer/playtest remains unverified because native control/file-opening attempts stalled. No Nexus greybox, carrying, hazards or art pass was implemented in this session.
+- Branch: stage3/command-bar-world-foundation; PR #3. Preparation commit 3747363 passed push/PR CI; completed-generation/Studio evidence is the commit containing this handoff.
+- Runtime source remains at 197c596; no logic or imported production assets changed. Command Bar bundle/source parity verified.
+- Existing core gate: format/lint/build, 116 tests and content validation pass. Engine-aware type check prints SKIPPED (definitions unavailable); pure-module strict analysis/world tests are separately covered by CI.
+- Studio verification: partial but real — installer and one-client route now pass through native MCP. The MCP test-stop call returned Game Stopped; a later state refresh found Play again. Re-read mode before further Edit/Client/Server calls and do not assume user state stayed fixed.
 
-## Not done / stubbed / known broken
-- No new generated images, accepted concepts, paid jobs, 3D or video outputs. Canvas preparation is not a generation result.
-- Canvas accepts one source-image input per generation node; a second input was rejected without board changes. Relevant supplied boards now feed A–G, original icon feeds H.
-- Structural dimensions in the notes are hypotheses. Multilevel/cluster layouts need an explicit authoring strategy beyond the current fixed eight-room planner.
+## Not done / limitations
+- No physical artifact carrying, saved museum/economy, hazards, Nexus geometry/art pass, two-client/disconnect or mobile/network-performance acceptance.
+- Canvas generation failed generically with empty image job IDs and no observed credit decrease. Direct recovery completed the original eight approved outputs within the estimate; no completed image was rerendered.
+- No 3D or video jobs. Their optional workflows are documented; no additional paid set was proposed or executed.
+- Larger Core/cluster room dimensions are authoring hypotheses and require new layout validation beyond the current fixed eight-room planner.
 
-## Decisions made (and why)
-- The user's pasted brief explicitly requires confirmation before paid generation. No credits were spent; prepared the concrete eight-node set and local documentation first.
-- Supplied board text is reference content, not permission to spend or proof of a model. Use the live catalog; preserve source images and reject unplayable concepts.
-- Current room/cargo budgets remain the starting contract. Visual credit approval and concept acceptance are separate gates.
+## Decisions made
+- Preserve supplied boards (four unique, two byte-identical duplicates), exclude embedded artwork instructions as authority, and record rejected gameplay/layout details.
+- Credit approval is distinct from concept/component acceptance and production validation.
+- Test through the official Studio MCP in the isolated place; no writes were directed to the published main place and nothing was published.
 
 ## USER ACTION needed
-- Confirm or revise the eight-image set, GPT Image 2.5 settings and estimated four-credit spend. No confirmation has been received.
-- Review/merge PR #3 when ready; actual Studio acceptance and Stage 0 Lifecycle/network integration remain open.
+- Review/merge PR #3 when ready. No further approval is needed for the already delivered eight-image set.
 
-## Next step (exactly)
-1. Read docs/visual-references/reference-plan.json, recheck the quote if it changed, and only after user confirmation run the recorded eight Canvas nodes.
-2. Review actual outputs, record job/output/reviewer/verdict, rewrite accepted notes from observations, then author the smallest Studio tests before any polish.
+## Next step
+1. Integrate standalone world startup/remotes with Stage 0 Lifecycle/registry; return to the global Stage 1 artifact/carry loop.
+2. Use reviewed concepts for the smallest Core/bridge and crossover greyboxes when scope permits. Prove actual cargo, multiplayer, streaming and mobile performance before polish.
 
-## Files to read first next time
-docs/HIGGSFIELD_DIMENSION_VISUAL_PIPELINE.md, docs/visual-references/README.md, reference-plan.json, docs/dev-plan.md, docs/PHASE_1_VALIDATION.md, ADR 0007.
+## Read first
+docs/HIGGSFIELD_DIMENSION_VISUAL_PIPELINE.md, docs/visual-references/README.md, reference-plan.json, docs/PHASE_1_VALIDATION.md, docs/dev-plan.md, ADR 0007.
 
 ## Plan status
-Visual discovery/board/prompt preparation complete. Paid generation, concept approval and measured Studio gates open. Global artifact/carry/MVP gates remain unmet.
+Visual discovery, generation and review complete. One-client native world checks pass. Production/Nexus art, real carrying, multiplayer and mobile gates remain open.
