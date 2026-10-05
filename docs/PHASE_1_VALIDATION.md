@@ -15,6 +15,7 @@ Date: 5 October 2026. Luau toolchain: official 0.741 release.
 - 100 assembled maps contain the expected eight room floors/eight connector floors, with no intersecting floor footprints and zero unanchored physics parts or live artifacts.
 - Template rejection checks cover actual cargo-lane obstruction, missing collision floor, inward sockets, narrow sockets and missing landmark.
 - Four concurrent reservations are isolated. Exhaustion, stale lease tokens, failed generation, complete teardown and cell reuse are checked.
+- Simultaneous main-portal requests reserve separate destinations while clients are still streaming; the join station can share the oldest open expedition. Pending-entry cancellation releases both maps and transitions.
 - Transition checks cover forged tokens, distant extraction, destination timeout/failure, movement restoration, successful entry/return, closure during streaming and last-occupant cleanup.
 - Installation rerun archives all five owned roots including template edits, preserves unrelated content, rejects foreign name collisions and leaves no staging folder.
 

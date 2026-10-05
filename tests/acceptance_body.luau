@@ -245,6 +245,25 @@ return function(env, installer)
 	end
 	local p2, root2, hum2 = fixturePlayer("SecondPlayer")
 	local p3, root3 = fixturePlayer("ThirdPlayer")
+	-- New expeditions remain separate even before either client finishes streaming.
+	service:Enter(p2, false, world.Hub.PortalEntry)
+	service:Enter(p3, false, world.Hub.PortalEntry)
+	check(service.Pending[p2] and service.Pending[p3], "Concurrent entry did not reserve maps")
+	local pendingFirst, pendingSecond = service.Pending[p2].Rift, service.Pending[p3].Rift
+	check(pendingFirst ~= pendingSecond, "New expeditions shared a pending destination")
+	local joining, joiningRoot = fixturePlayer("JoiningPlayer")
+	joiningRoot.CFrame = env.CFrame.new(world.Hub.JoinEntry.Position)
+	service:Enter(joining, true, world.Hub.JoinEntry)
+	check(
+		service.Pending[joining] and service.Pending[joining].Rift == pendingFirst,
+		"Join station did not share the oldest open expedition"
+	)
+	service:Close(pendingFirst, "Test cleanup")
+	service:Close(pendingSecond, "Test cleanup")
+	check(
+		not next(service.Pending) and service.Allocator:Count() == 0,
+		"Concurrent entry cleanup leaked transitions or cells"
+	)
 	local first, second =
 		assert(service:Create("GiantsKitchen", 31)), assert(service:Create("GiantsKitchen", 32))
 	service:Transition(p2, first, true, world.Hub.PortalEntry)

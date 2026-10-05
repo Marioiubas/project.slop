@@ -356,6 +356,17 @@ function Mock.new()
 		},
 		workspace = workspace,
 		Instance = { new = new },
+		-- Ambient engine randomness is fixed; planner randomness is tested separately.
+		Random = {
+			new = function()
+				return {
+					NextInteger = function(_, minimum, maximum)
+						assert(minimum <= maximum, "Invalid random range")
+						return minimum
+					end,
+				}
+			end,
+		},
 		CFrame = CFrame,
 		Vector3 = { new = vector, zero = vector(0, 0, 0) },
 		Vector2 = {

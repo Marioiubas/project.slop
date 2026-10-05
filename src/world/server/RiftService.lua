@@ -249,9 +249,16 @@ function Service.Enter(self: RiftService, player: Player, joinExisting: boolean,
 	end
 	self.Cooldowns[player] = now + 2
 	local rift
+	local claimed = {}
+	for _, pending in pairs(self.Pending) do
+		if pending.Entering then
+			claimed[pending.Rift.RiftId] = true
+		end
+	end
 	for _, candidate in pairs(self.Rifts) do
 		if
 			self:Capacity(candidate)
+			and (joinExisting or not claimed[candidate.RiftId])
 			and (candidate.State == "Ready" or (joinExisting and candidate.State == "Active"))
 		then
 			if not rift or candidate.CreatedAt < rift.CreatedAt then

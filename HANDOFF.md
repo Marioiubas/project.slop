@@ -10,7 +10,7 @@ Implement the supplied world brief's audit-first Phase 1 in Lua, make it Command
 
 ## State of the repo
 - Branch: stage3/command-bar-world-foundation, based on refreshed main 64e49a9 (both planning and Stage 0 merged). Implementation commit is the commit containing this handoff.
-- Builds: Luau + both Rojo projects pass. Lint: StyLua/Selene pass. Tests: 116 core tests, 4,029 invariant checks across 1,000 seeds and 47,861 engine-double checks across 100 maps pass. Strict pure-module analysis passes; the main `tools/typecheck` step printed SKIPPED because Roblox type definitions were unavailable.
+- Builds: Luau + both Rojo projects pass. Lint: StyLua/Selene pass. Tests: 116 core tests, 4,029 invariant checks across 1,000 seeds and 47,865 engine-double checks across 100 maps pass. Strict pure-module analysis passes; the main `tools/typecheck` step printed SKIPPED because Roblox type definitions were unavailable.
 - Verified in Studio: not yet. Studio is installed and running; the isolated test-place opening attempt stalled in its native file picker, and subsequent UI calls timed out. No installer execution or live playtest was observed. Roblox-aware engine type analysis and device/network performance remain unverified.
 
 ## Not done / stubbed / known broken

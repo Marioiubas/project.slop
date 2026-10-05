@@ -6,12 +6,12 @@
     "server/DebugService": "1d62d7369a01209f13d17cfff7839ee90b1ae51c9c570d4743dd35e8df6ee18c",
     "server/RiftCellAllocator": "fc0e41c8fb9d7193b92cf55abdc42903af9648b7de1c3fa4cd2da98e2f0fd954",
     "server/RiftGenerator": "a14ca6b5421ddb1cf146f36e3d15584cbe0abf619d276c6ba41f99f183364904",
-    "server/RiftService": "48c6f11d9187e1a1369e091a2f7508fbddc9b7c3797f96bdf541eb2adb6645d2",
+    "server/RiftService": "3347e0aeaff1aeda6bd184a0f729f759fdae7a9462c72cb8eda0b0f2a0a7eeea",
     "server/WorldBuilder": "ef0abe88f2266ff5f8f36f5313367117a193cfdbd9e7aeb64ce6cdac7434fc88",
     "shared/Constants": "ff360521ebbd90a502f3d8a3626fc1cd27554fcbc487e2062bdb4bdc0eb2f0d5",
     "shared/DimensionDefinitions": "e5639b111dcfd3c9faf509c47c5a34dba84adcde751a20aa2d3fa9036e59b295",
     "shared/GraphPlanner": "faa1bb61ad7ef5af2eed4d3acf0c3f3d5ab3ff89d52e34e73957010a415e506f",
     "shared/RoomDefinitions": "77f52a340402e9b237e86ddf50106683604d89a722d078c0762176601d207a37"
   },
-  "installer_sha256": "a2c9e219810cf69a35bc8f8dbc77dd09e6b9bb4a866f80d55bc3637fcc72ea08"
+  "installer_sha256": "0883673d1a6cafbf3caf9975067822a129bfc8644411c6dd2be754049d5798a3"
 }
