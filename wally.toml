@@ -1,0 +1,13 @@
+[package]
+name = "senirothecreator/grab-the-weird"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+private = true
+
+# Stage 4 adds ProfileService here (see ADR 0002), then maps `Packages/` /
+# `ServerPackages/` in default.project.json. Nothing is mapped yet because
+# `wally install` output is not committed and rojo fails on a missing $path.
+[dependencies]
+
+[server-dependencies]

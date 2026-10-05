@@ -1,0 +1,6 @@
+std = "roblox"
+
+[lints]
+# Roblox code reads fine with shadowing in nested scopes (e.g. `err`, `ok`, `player`);
+# real mistakes are still caught by the unused/undefined-variable lints.
+shadowing = "allow"
