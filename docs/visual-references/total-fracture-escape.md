@@ -1,6 +1,19 @@
 # E — Total Fracture Escape
 
-Status: **pending generation and review**. No new Higgsfield output exists or is approved. These specifications are initial greybox hypotheses, not measurements inferred from concept art.
+![Generated Total Fracture Escape](generated/total-fracture-escape.png)
+
+Job: `f5be0a02-d76c-42eb-b98e-a05bfc5efe24`. GPT Image 2.5 / Flare / medium / 1k. Actual output: 1344 × 752. The original PNG and hash are recorded in [generated/manifest.json](generated/manifest.json).
+
+## GeneratedObservation
+
+Three blocky figures carry the refrigerator on a wide warm deck toward a large cyan extraction frame. The side/upper route visibly breaks apart behind them while water remains below the safe deck. Feet, floor and destination are all readable.
+
+## ReviewVerdict
+
+accepted for greybox direction. Do not treat rendered arrows as sufficient navigation or copy side-route destruction into the only cargo path. The still image does not establish high-intensity motion, timing or server-safe topology change.
+
+
+Status: **accepted for greybox direction**. Reviewed by Codex on 5 October 2026 after the user approved generation. This is acceptance of the stated visual direction/components, not user approval of production geometry. Dimensions below are proposed authoring values, not image measurements.
 
 ## ReferenceIntent
 
@@ -14,27 +27,27 @@ The Extraction Sequence panel puts a strong portal ahead of fleeing players. The
 
 ## SpatialLessons
 
-Study three connected 96 × 96 modules. Use existing 24 × 24 cargo clearance and a 32 × 32 extraction landing. Prototype a 32-second escape window as a hypothesis with 8 seconds of readable warning; measure actual heavy-cargo completion times before tuning it.
+Prototype three connected 96 × 96 modules. Reserve a continuous 24 × 24 return envelope and a 32 × 32 gate turning/queue pad. Put sacrificial geometry beside or behind that route. A proposed 32-second escape with eight seconds of warning is only a tuning hypothesis; measure actual heavy-cargo completion before choosing timing.
 
 ## GameplayLessons
 
-Collapse removes optional space first. A surviving bypass remains visible and carries the largest test cargo. Four-player queues at extraction must not make success depend on an invisible timer.
+Collapse removes optional space first. Keep a surviving bypass visible until the escape window ends and verify four-player queue behavior. Current runtime expiry is not this collapse mechanic.
 
 ## PaletteLessons
 
-Warm cream/wood foreground; dark navy collapsing background; local amber warnings; cyan return gate remains the clearest focal point. Bounded violet/magenta fracture seams may follow the new supplied boards; cyan remains the consistent safe-travel cue. Test silhouettes and floor edges without bloom.
+Keep cream/wood return deck calm, violet fracture behind it and cyan at the goal. Reduce the bright water vortex so it does not compete with extraction.
 
 ## AssetList
 
-Intact return deck, sacrificial side deck, emergency portal frame, warning panels, bounded water visual, artifact proxy.
+Intact deck; sacrificial side deck; emergency gate; turning/queue pad; bounded water visual; refrigerator proxy.
 
 ## VFXList
 
-One local fracture seam; restrained debris outside the surviving path; gate pulse strongest at the destination.
+One local fracture seam and bounded side debris; portal pulse remains the strongest travel cue.
 
 ## AudioImplications
 
-Rising but legible collapse rhythm, distinct warning and extraction cue; keep footsteps and teammate audio audible.
+Readable warning and rising collapse rhythm, with extraction cue and teammate speech still audible.
 
 ## TechnicalRisks
 
@@ -48,14 +61,14 @@ Collapse direction; surviving cargo path; emergency gate visibility; readable fe
 
 Particle walls; all routes failing simultaneously; camera shake used to hide poor navigation.
 
-## Generation proposal
+## Generation provenance
 
-GPT Image 2.5 / Flare / medium / 1k / 16:9, one output. Canvas generation node: `57ab67e8-2098-45df-8bc5-cfc3066d78ad`. Prompt and source-image nodes are connected; the Canvas adapter accepts one source-image connection per generation. The exact editable prompt is in [reference-plan.json](reference-plan.json).
+GPT Image 2.5 / Flare / medium / 1k / 16:9, one completed direct-API output. The original Canvas recipe node `57ab67e8-2098-45df-8bc5-cfc3066d78ad` failed without returning a generation job ID. Its result image was added separately to the board; the successful job and original PNG are recorded above. The exact successful prompt is in [reference-plan.json](reference-plan.json).
 
-## Acceptance before implementation
+## Remaining gates before implementation
 
-- Record the actual job ID, output URL, reviewer and verdict after generation. Credit approval alone is not concept approval.
+- Actual job, output, hash and Codex review are recorded above. Visual direction/component acceptance is not production or gameplay validation.
 - Verify this design question is answered, the floor/return route is visible and blocky figures establish scale.
 - Reject hidden gaps, blocked cargo turns, misleading decorative routes or unreadable bloom. Record the reason; a paid retry needs separate confirmation.
-- Rewrite SpatialLessons from the accepted image while distinguishing observations from measured greybox choices.
+- SpatialLessons now follow the reviewed output; measure and revise authoring hypotheses in the greybox.
 - Build the smallest authoring test, then test traversal, largest cargo proxy, four players and delayed streaming. Record timings and device performance before an art pass.

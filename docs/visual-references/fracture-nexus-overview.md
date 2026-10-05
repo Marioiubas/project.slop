@@ -1,6 +1,19 @@
 # A — Fracture Nexus — Hero Overview
 
-Status: **pending generation and review**. No new Higgsfield output exists or is approved. These specifications are initial greybox hypotheses, not measurements inferred from concept art.
+![Generated Fracture Nexus — Hero Overview](generated/fracture-nexus-overview.png)
+
+Job: `69644947-a36f-4c82-b857-615d460cc402`. GPT Image 2.5 / Flare / medium / 1k. Actual output: 1344 × 752. The original PNG and hash are recorded in [generated/manifest.json](generated/manifest.json).
+
+## GeneratedObservation
+
+A dark faceted Core sits on a round central platform. Warm Kitchen counters approach from the left, a broken blue Aquarium dome from the right, a raised toy/train cluster behind, and an inverted city stays in the distance. Three blocky figures move a gold refrigerator along a broad foreground bridge. The route-to-landmark composition is clear.
+
+## ReviewVerdict
+
+accepted for greybox direction. Prune most unrelated background floating cubes; do not turn decorative city silhouettes into false playable routes. Simplify Core detail and prove all three bridge junctions and cargo turns.
+
+
+Status: **accepted for greybox direction**. Reviewed by Codex on 5 October 2026 after the user approved generation. This is acceptance of the stated visual direction/components, not user approval of production geometry. Dimensions below are proposed authoring values, not image measurements.
 
 ## ReferenceIntent
 
@@ -14,27 +27,27 @@ The overview and top-view panel show distinct Kitchen, Aquarium, Toybox and City
 
 ## SpatialLessons
 
-Compose a 3 × 3 study of 96 × 96 modules, not one oversized template. Prototype only the centre and two connected approaches first. Keep 24-stud cargo clearance and 32-stud connectors; leave orbiting silhouettes outside collision and camera lanes.
+Use a central arrival/turning pad feeding three visibly distinct approaches. Start with one 96 × 96 centre module and two approach modules on the eight-stud grid; use a 32 × 32 turning pad and continuous 24 × 24 carry envelope. The image suggests relative hierarchy, not measured dimensions. A circular hub/Core layout must be authored and validated separately from the present fixed room-chain planner.
 
 ## GameplayLessons
 
-The Core is the shared navigation anchor. Stable bridges carry cargo; local gravity is introduced only in marked side volumes. An optional loop rejoins the same return route.
+Keep normal bridges stable while local dimensional rules live in optional marked volumes. The Core remains the common navigation anchor and a visible return gate supplies orientation. Cooperative carrying in the image remains an unimplemented behavior.
 
 ## PaletteLessons
 
-Ink-blue Core framing; cream/wood/coral Kitchen; deep navy/pale aqua Aquarium; muted primary Toybox colors; gold artifacts and cyan travel only. Bounded violet/magenta fracture seams may follow the new supplied boards; cyan remains the consistent safe-travel cue. Test silhouettes and floor edges without bloom.
+Keep warm Kitchen, cool Aquarium and restrained toy primaries separate. Violet belongs to the split Core and fragment seams; cyan belongs to travel frames. The cream bridge is a calm visual carrier for the route.
 
 ## AssetList
 
-Faceted Core shell, three bridge kits, countertop island, broken dome silhouette, toy rail arch, low-detail upside-down skyline, return gate.
+Segmented Core shell/frame; central deck; straight bridge kit; countertop island; broken dome ribs; toy-rail arch; low-detail inverted skyline; portal frame.
 
 ## VFXList
 
-Core seam pulse, one portal plane per destination, restrained rim lighting at dimension boundaries.
+One restrained Core seam pulse and bounded portal plane; distant fragments use a small authored silhouette set.
 
 ## AudioImplications
 
-Stable Core hum near the crossing, distinct ambience from each approach; portal return has a consistent audible cue.
+Core hum as a navigation anchor; distinct ambience on each branch; consistent return cue.
 
 ## TechnicalRisks
 
@@ -48,14 +61,14 @@ Core silhouette; warm/cool cluster hierarchy; bridges converging on a landmark; 
 
 Decorative orbiting pieces in the carry corridor; a skyline that reads as a reachable route; particles masking bridge edges.
 
-## Generation proposal
+## Generation provenance
 
-GPT Image 2.5 / Flare / medium / 1k / 16:9, one output. Canvas generation node: `a0fd21cc-bc48-498d-b497-94b17263c875`. Prompt and source-image nodes are connected; the Canvas adapter accepts one source-image connection per generation. The exact editable prompt is in [reference-plan.json](reference-plan.json).
+GPT Image 2.5 / Flare / medium / 1k / 16:9, one completed direct-API output. The original Canvas recipe node `a0fd21cc-bc48-498d-b497-94b17263c875` failed without returning a generation job ID. Its result image was added separately to the board; the successful job and original PNG are recorded above. The exact successful prompt is in [reference-plan.json](reference-plan.json).
 
-## Acceptance before implementation
+## Remaining gates before implementation
 
-- Record the actual job ID, output URL, reviewer and verdict after generation. Credit approval alone is not concept approval.
+- Actual job, output, hash and Codex review are recorded above. Visual direction/component acceptance is not production or gameplay validation.
 - Verify this design question is answered, the floor/return route is visible and blocky figures establish scale.
 - Reject hidden gaps, blocked cargo turns, misleading decorative routes or unreadable bloom. Record the reason; a paid retry needs separate confirmation.
-- Rewrite SpatialLessons from the accepted image while distinguishing observations from measured greybox choices.
+- SpatialLessons now follow the reviewed output; measure and revise authoring hypotheses in the greybox.
 - Build the smallest authoring test, then test traversal, largest cargo proxy, four players and delayed streaming. Record timings and device performance before an art pass.

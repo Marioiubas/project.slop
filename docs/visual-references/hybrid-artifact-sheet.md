@@ -1,6 +1,19 @@
 # H — Hybrid Artifact Sheet
 
-Status: **pending generation and review**. No new Higgsfield output exists or is approved. These specifications are initial greybox hypotheses, not measurements inferred from concept art.
+![Generated Hybrid Artifact Sheet](generated/hybrid-artifact-sheet.png)
+
+Job: `d950c105-8d57-4fa5-9e9e-1552cf4afccf`. GPT Image 2.5 / Flare / medium / 1k. Actual output: 1168 × 880. The original PNG and hash are recorded in [generated/manifest.json](generated/manifest.json).
+
+## GeneratedObservation
+
+The sheet contains all seven requested names and distinct large-piece silhouette families. The jellyfish uses a bell and repeated mechanical limbs; jar/cup/bowl use contained volumes; fridge uses a bounded orbit; Small Sun is faceted. Tiny figures and blank ruler marks at the bottom do not establish reliable object dimensions. The sheet's Runaway Door lacks the wheeled feet shown in F.
+
+## ReviewVerdict
+
+accepted silhouettes only. Reject unlabelled ruler ticks as measurements and exclude text labels from runtime assets. Add explicit contact geometry; the reverse fishbowl behavior and cooperative fridge carry are unproved by a static sheet.
+
+
+Status: **accepted silhouettes only**. Reviewed by Codex on 5 October 2026 after the user approved generation. This is acceptance of the stated visual direction/components, not user approval of production geometry. Dimensions below are proposed authoring values, not image measurements.
 
 ## ReferenceIntent
 
@@ -14,27 +27,27 @@ The supplied icon establishes a gold refrigerator silhouette, a cyan eye, blocky
 
 ## SpatialLessons
 
-Initial proxy envelopes (studs): jellyfish 8 × 8 × 8; jar 8 × 12 × 8; cup 8 × 10 × 8; fridge 16 × 20 × 12; door 12 × 20 × 4; sun cage 8 × 8 × 8; bowl 12 × 12 × 12. These test proxies must fit the 24 × 24 route including carriers and clearance; none is an approved weight or inventory definition.
+Use explicit proposed proxies in studs, independent of the picture's fake ruler: jellyfish 8 × 8 × 8; jar 8 × 12 × 8; cup 8 × 10 × 8; fridge 16 × 20 × 12; door 12 × 20 × 4; sun cage 8 × 8 × 8; bowl 12 × 12 × 12. Validate the combined carrier/object envelope against 24 × 24 routes. Preserve contact/grasp points and use simple collision proxies.
 
 ## GameplayLessons
 
-One behavior per silhouette. Bounded cosmetic motion is separated from authoritative carrying behavior. The sheet does not establish rarity, rewards or economic values.
+Accept silhouette vocabulary, not weights, rarity, economics or physical behavior. Add authored grasp/handle points, bounded orbit limits and wheeled-door feet based on F where appropriate. Cosmetic motion never expands authoritative carrying collision unpredictably.
 
 ## PaletteLessons
 
-Limited cream/ink/steel bases; restrained dimension color; gold fridge and sun; aqua only for water-like contents and cyan eye. Bounded violet/magenta fracture seams may follow the new supplied boards; cyan remains the consistent safe-travel cue. Test silhouettes and floor edges without bloom.
+Copy limited cream/ink/steel families and gold fridge/sun. Reduce repeated cyan strips and contained-water transparency; eye/water details may be accents without making every artifact read as a portal.
 
 ## AssetList
 
-Seven primitive-first proxy assemblies, simple handles/contact points, one shared scale rig and palette sheet.
+Seven primitive-first proxies; shared scale rig; grasp/contact markers; bounded orbit pieces; simple materials and palette sheet.
 
 ## VFXList
 
-One bounded effect per object at most: local glow, small pulse, contained water or bounded orbit.
+At most one bounded effect per object, with distance-limited museum display behavior.
 
 ## AudioImplications
 
-A short identifiable motif per behavior; no continuous overlapping loops in a full museum.
+One short recognizable motif per behavior; avoid seven competing continuous display loops.
 
 ## TechnicalRisks
 
@@ -48,14 +61,14 @@ Distinct silhouette families; limited materials; clear carrying scale and contac
 
 Tiny gears and cloth tentacles; labels posing as game UI; detailed PBR textures; behavior concealed by a generic glow.
 
-## Generation proposal
+## Generation provenance
 
-GPT Image 2.5 / Flare / medium / 1k / 4:3, one output. Canvas generation node: `594b9e43-f25d-4108-9fe1-2601103108e6`. Prompt and source-image nodes are connected; the Canvas adapter accepts one source-image connection per generation. The exact editable prompt is in [reference-plan.json](reference-plan.json).
+GPT Image 2.5 / Flare / medium / 1k / 4:3, one completed direct-API output. The original Canvas recipe node `594b9e43-f25d-4108-9fe1-2601103108e6` failed without returning a generation job ID. Its result image was added separately to the board; the successful job and original PNG are recorded above. The exact successful prompt is in [reference-plan.json](reference-plan.json).
 
-## Acceptance before implementation
+## Remaining gates before implementation
 
-- Record the actual job ID, output URL, reviewer and verdict after generation. Credit approval alone is not concept approval.
+- Actual job, output, hash and Codex review are recorded above. Visual direction/component acceptance is not production or gameplay validation.
 - Verify this design question is answered, the floor/return route is visible and blocky figures establish scale.
 - Reject hidden gaps, blocked cargo turns, misleading decorative routes or unreadable bloom. Record the reason; a paid retry needs separate confirmation.
-- Rewrite SpatialLessons from the accepted image while distinguishing observations from measured greybox choices.
+- SpatialLessons now follow the reviewed output; measure and revise authoring hypotheses in the greybox.
 - Build the smallest authoring test, then test traversal, largest cargo proxy, four players and delayed streaming. Record timings and device performance before an art pass.

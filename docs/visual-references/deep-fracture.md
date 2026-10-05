@@ -1,6 +1,19 @@
 # D — Deep Fracture
 
-Status: **pending generation and review**. No new Higgsfield output exists or is approved. These specifications are initial greybox hypotheses, not measurements inferred from concept art.
+![Generated Deep Fracture](generated/deep-fracture.png)
+
+Job: `0992d60b-6520-4eff-b8dd-42a8ed7e9e29`. GPT Image 2.5 / Flare / medium / 1k. Actual output: 1344 × 752. The original PNG and hash are recorded in [generated/manifest.json](generated/manifest.json).
+
+## GeneratedObservation
+
+Two figures consider a single bridge toward a caged Small Sun. A third turns toward the cyan return gate on the left. The dark void, bright destination and visible interrupted bridge make the optional risk clear; two framed background realities remain separated from the usable route.
+
+## ReviewVerdict
+
+accepted for greybox direction. Do not copy impossible disconnected rail/collision segments as authored geometry. The waiting-pad safety and gap timing need real tests; avoid adding another competing anomaly.
+
+
+Status: **accepted for greybox direction**. Reviewed by Codex on 5 October 2026 after the user approved generation. This is acceptance of the stated visual direction/components, not user approval of production geometry. Dimensions below are proposed authoring values, not image measurements.
 
 ## ReferenceIntent
 
@@ -14,27 +27,27 @@ The Deep Fracture panel uses a violet void and isolated platforms to communicate
 
 ## SpatialLessons
 
-Study one 96 × 96 module plus its connector. Keep 24-stud bridge width and 32 × 32 safe pads. Put any timed gap only on this optional spur; the heavy-cargo return must be proven with the gap mechanism or a deliberate alternative.
+Start with one 96 × 96 optional module plus connector. Keep the bridge 24 studs wide and both waiting pads 32 × 32. Define and simulate the moving-gap envelope explicitly; a static image cannot establish its cycle. Make the out-and-back cargo return possible or provide a deliberate signalled alternative.
 
 ## GameplayLessons
 
-The player sees reward and danger before commitment. The hazard cycle is predictable and signalled. Returning empty-handed is valid and clearly visible.
+Reward, hazard and retreat are visible before commitment. Returning without the artifact is valid. Determine warning/hold/restore timing with measured carry speed and multiplayer congestion; no timing or rarity value is approved by the image.
 
 ## PaletteLessons
 
-Matte navy/black void, pale grey bridge edges, a controlled amber artifact focal point, cyan only at the return door. Bounded violet/magenta fracture seams may follow the new supplied boards; cyan remains the consistent safe-travel cue. Test silhouettes and floor edges without bloom.
+Matte ink void, pale route edge and local gold reward. Violet signals only the interrupted hazard region; cyan clearly identifies retreat.
 
 ## AssetList
 
-Straight bridge, two safe pads, one moving segment, simple pedestal, Small Sun cage, two background portal windows.
+Straight bridge; two waiting pads; one moving segment; simple pedestal; Small Sun cage; two noninteractive background windows.
 
 ## VFXList
 
-One hazard warning strip and a bounded artifact light; the void stays visually quiet.
+One local gap-warning strip and artifact light; keep the surrounding void quiet.
 
 ## AudioImplications
 
-Sparse ambience; regular hazard cue; a warm artifact tone audible from the decision landing.
+A regular readable hazard cue and warm artifact tone rather than continuous spectacle.
 
 ## TechnicalRisks
 
@@ -48,14 +61,14 @@ One readable risk/reward sightline; sparse environment; stable decision landing.
 
 Invisible collision edges; multiple simultaneous anomalies; a narrow bridge crowded by four players.
 
-## Generation proposal
+## Generation provenance
 
-GPT Image 2.5 / Flare / medium / 1k / 16:9, one output. Canvas generation node: `b0c77c66-5546-4b00-906f-e919e0fd25be`. Prompt and source-image nodes are connected; the Canvas adapter accepts one source-image connection per generation. The exact editable prompt is in [reference-plan.json](reference-plan.json).
+GPT Image 2.5 / Flare / medium / 1k / 16:9, one completed direct-API output. The original Canvas recipe node `b0c77c66-5546-4b00-906f-e919e0fd25be` failed without returning a generation job ID. Its result image was added separately to the board; the successful job and original PNG are recorded above. The exact successful prompt is in [reference-plan.json](reference-plan.json).
 
-## Acceptance before implementation
+## Remaining gates before implementation
 
-- Record the actual job ID, output URL, reviewer and verdict after generation. Credit approval alone is not concept approval.
+- Actual job, output, hash and Codex review are recorded above. Visual direction/component acceptance is not production or gameplay validation.
 - Verify this design question is answered, the floor/return route is visible and blocky figures establish scale.
 - Reject hidden gaps, blocked cargo turns, misleading decorative routes or unreadable bloom. Record the reason; a paid retry needs separate confirmation.
-- Rewrite SpatialLessons from the accepted image while distinguishing observations from measured greybox choices.
+- SpatialLessons now follow the reviewed output; measure and revise authoring hypotheses in the greybox.
 - Build the smallest authoring test, then test traversal, largest cargo proxy, four players and delayed streaming. Record timings and device performance before an art pass.

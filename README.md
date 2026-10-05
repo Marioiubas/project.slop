@@ -71,7 +71,7 @@ python3 tools/build_command_bar.py
 python3 tools/run_tests.py --luau /path/to/luau --compiler /path/to/luau-compile --analyzer /path/to/luau-analyze
 ```
 
-Tests use the official [Luau 0.741](https://github.com/luau-lang/luau/releases/tag/0.741) compiler/runtime. The standalone engine double checks geometry math and lifecycle code; it does not emulate Roblox rendering, physics, replication or Studio permissions. Actual Studio, two-client and mobile tests are required before treating this as a validated playable build.
+Tests use the official [Luau 0.741](https://github.com/luau-lang/luau/releases/tag/0.741) compiler/runtime. The standalone engine double checks geometry math and lifecycle code; it does not emulate Roblox rendering, physics, replication or Studio permissions. Official Studio MCP now verifies installer execution, one-client entry/route/extraction and four-cell cleanup in an isolated place; [validation evidence](docs/PHASE_1_VALIDATION.md) records the scope. Two-client, physical-cargo and mobile tests remain open.
 
 The optional standalone Rojo path is `rojo build world.project.json -o world.rbxlx` (Rojo 7.7.1). Its bootstrap recreates the kit without the Command Bar install. Use `world.project.json` explicitly; the main game's separate foundation from PR #2 is now merged. [ADR 0007](docs/adr/0007-command-bar-world-package.md) describes the integration boundary. Review the mappings before running both source-sync projects against one place.
 

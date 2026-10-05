@@ -1,6 +1,19 @@
 # B — Kitchen × Moon Aquarium Transition
 
-Status: **pending generation and review**. No new Higgsfield output exists or is approved. These specifications are initial greybox hypotheses, not measurements inferred from concept art.
+![Generated Kitchen × Moon Aquarium Transition](generated/kitchen-aquarium-transition.png)
+
+Job: `d6e674e7-6fda-4ebb-b9a8-65d0af975d37`. GPT Image 2.5 / Flare / medium / 1k. Actual output: 1344 × 752. The original PNG and hash are recorded in [generated/manifest.json](generated/manifest.json).
+
+## GeneratedObservation
+
+One spherical water volume intersects the upper refrigerator and ceiling. Warm kitchen surfaces and blue Aquarium masonry share the same room. Loose utensils sit inside the water volume; a raised catwalk passes behind the fridge. A continuous dry floor and a visible right-hand ramp support the carry route.
+
+## ReviewVerdict
+
+accepted for greybox direction. Do not copy the centre fridge into the validated straight lanes. Simplify stacked glass/water; retain one sphere visual and one behavior volume. The right ramp must be cargo-rated only after physical testing.
+
+
+Status: **accepted for greybox direction**. Reviewed by Codex on 5 October 2026 after the user approved generation. This is acceptance of the stated visual direction/components, not user approval of production geometry. Dimensions below are proposed authoring values, not image measurements.
 
 ## ReferenceIntent
 
@@ -14,27 +27,27 @@ The Kitchen × Aquarium panel combines warm kitchen architecture with cool water
 
 ## SpatialLessons
 
-Start with one 96 × 96 module and a proposed 40-stud visual ceiling. Test a 24-stud water sphere at the upper third, above a dry 24 × 24 cargo lane. Give the raised optional catwalk 16-stud width; it is not the heavy-cargo route.
+Prototype a 96 × 96 module. Keep a straight 24 × 24 lower cargo lane compatible with current socket validation; move the refrigerator into a corner quadrant rather than copying its central obstruction. Test a 24-stud sphere centered at 28 studs with a 40-stud visual ceiling; a 16-stud catwalk is optional and not cargo-rated. These are proposed authoring values, not image measurements.
 
 ## GameplayLessons
 
-One boundary changes loose-object behavior. The lower route remains reliable; the upper lane provides a readable optional shortcut or spawn opportunity. Artifact physics are later work.
+Use one tagged upper anomaly volume for suspended-water/low-gravity behavior. The lower carry lane stays dry and stable. Test whether the upper shortcut offers a deliberate advantage before adding physics or loot.
 
 ## PaletteLessons
 
-Cream/coral kitchen surfaces transition to navy/pale aqua through one clean seam; cyan remains reserved for gates. Bounded violet/magenta fracture seams may follow the new supplied boards; cyan remains the consistent safe-travel cue. Test silhouettes and floor edges without bloom.
+Copy the warm/cool seam and restrained violet boundary. Reduce water-surface contrast and transparency layering so the actual floor and artifact stay readable.
 
 ## AssetList
 
-Countertop deck, refrigerator silhouette, cracked dome ribs, one sphere visual, ramp, catwalk, moon jar.
+Counter deck; fridge shell; one water-sphere visual; cracked dome wall ribs; catwalk; gentle ramp; Moon-in-a-Jar proxy.
 
 ## VFXList
 
-One bounded water surface and seam effect; a few utensils with a clearly constrained orbit.
+Bounded water surface, local seam and a few constrained utensil motions; no full-room particle cloud.
 
 ## AudioImplications
 
-Muffled watery resonance above, ordinary kitchen ticks below; short sound when crossing the anomaly boundary.
+Water resonance in the anomaly and ordinary Kitchen ambience below; one clear boundary-crossing cue.
 
 ## TechnicalRisks
 
@@ -48,14 +61,14 @@ A shared support and spatial seam; dry route below the anomaly; refrigerator sil
 
 Flooding both exits; transparent surfaces stacked across the player camera; rotating heavy-cargo bridges.
 
-## Generation proposal
+## Generation provenance
 
-GPT Image 2.5 / Flare / medium / 1k / 16:9, one output. Canvas generation node: `94e6e68c-f7d7-458a-89de-1f36bcdc433c`. Prompt and source-image nodes are connected; the Canvas adapter accepts one source-image connection per generation. The exact editable prompt is in [reference-plan.json](reference-plan.json).
+GPT Image 2.5 / Flare / medium / 1k / 16:9, one completed direct-API output. The original Canvas recipe node `94e6e68c-f7d7-458a-89de-1f36bcdc433c` failed without returning a generation job ID. Its result image was added separately to the board; the successful job and original PNG are recorded above. The exact successful prompt is in [reference-plan.json](reference-plan.json).
 
-## Acceptance before implementation
+## Remaining gates before implementation
 
-- Record the actual job ID, output URL, reviewer and verdict after generation. Credit approval alone is not concept approval.
+- Actual job, output, hash and Codex review are recorded above. Visual direction/component acceptance is not production or gameplay validation.
 - Verify this design question is answered, the floor/return route is visible and blocky figures establish scale.
 - Reject hidden gaps, blocked cargo turns, misleading decorative routes or unreadable bloom. Record the reason; a paid retry needs separate confirmation.
-- Rewrite SpatialLessons from the accepted image while distinguishing observations from measured greybox choices.
+- SpatialLessons now follow the reviewed output; measure and revise authoring hypotheses in the greybox.
 - Build the smallest authoring test, then test traversal, largest cargo proxy, four players and delayed streaming. Record timings and device performance before an art pass.

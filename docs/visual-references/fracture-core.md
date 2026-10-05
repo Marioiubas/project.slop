@@ -1,6 +1,19 @@
 # C — Fracture Core Chamber
 
-Status: **pending generation and review**. No new Higgsfield output exists or is approved. These specifications are initial greybox hypotheses, not measurements inferred from concept art.
+![Generated Fracture Core Chamber](generated/fracture-core.png)
+
+Job: `77d45db0-9837-4d59-b7eb-34bdd291042f`. GPT Image 2.5 / Flare / medium / 1k. Actual output: 1344 × 752. The original PNG and hash are recorded in [generated/manifest.json](generated/manifest.json).
+
+## GeneratedObservation
+
+The result uses two opposed reactor caps around a faceted blue centre rather than the proposed three shell pieces. Lower walkways surround the landmark; a side ramp reaches an upper route and the jellyfish reward sits on a separate elevated landing. The central negative space communicates vertical scale.
+
+## ReviewVerdict
+
+accepted for greybox direction. Reject the image's pervasive pillar glow and cyan-Core/travel ambiguity for the production palette. Do not infer a safe upper jump or cargo access from the floating reward landing.
+
+
+Status: **accepted for greybox direction**. Reviewed by Codex on 5 October 2026 after the user approved generation. This is acceptance of the stated visual direction/components, not user approval of production geometry. Dimensions below are proposed authoring values, not image measurements.
 
 ## ReferenceIntent
 
@@ -14,27 +27,27 @@ The main Nexus panel presents a cracked spherical Core framed by oversized objec
 
 ## SpatialLessons
 
-Prototype a 2 × 2 assembly of 96 × 96 modules. Keep a 24-stud lower cargo ring and 32 × 32 turning pads. Place the optional level 16 studs above; target 56-stud visual headroom. These larger relationships require authored assembly and new tests.
+Study a 2 × 2 assembly of 96 × 96 modules. Reserve an uninterrupted 24-stud lower route with 32 × 32 turning pads, a proposed upper level 16 studs above and 56-stud visual headroom. Adopt the simpler two-cap silhouette if it preserves the remembered split-Core identity. Larger ring/level assembly requires a new authored layout contract and validation.
 
 ## GameplayLessons
 
-The landmark remains visible from every landing. The lower loop remains traversable during the first collapse phase; upper risk must never block the only route home.
+Lower cargo circulation remains reliable; the elevated artifact landing is optional risk. Keep the Core visible from both levels and ensure the side ramp rejoins the safe route.
 
 ## PaletteLessons
 
-Ink/navy structural frame, warm cream walkways, restrained gold clamps, one cyan return portal. Bounded violet/magenta fracture seams may follow the new supplied boards; cyan remains the consistent safe-travel cue. Test silhouettes and floor edges without bloom.
+Use the dark structural frame and warm walkway contrast. Recolor the centre/seam toward bounded violet and reserve cyan for the extraction frame; remove most full-height neon pillar strips.
 
 ## AssetList
 
-Three Core shell pieces, central shaft frame, lower ring deck, modular side ramp, upper catwalk, gold clamp kit.
+Two Core caps; faceted centre; shaft supports; lower deck loop; side ramp; upper optional landing; gold clamp pieces.
 
 ## VFXList
 
-Slow shell orbit inside the shaft, seam pulse and one timed warning before upper-platform movement.
+Contained shell motion and one seam pulse; upper-platform warnings precede movement.
 
 ## AudioImplications
 
-Layered reactor hum gives proximity and instability information; warning has a clear lead-in.
+Low reactor hum and distinct optional-route warning, with room for teammate audio.
 
 ## TechnicalRisks
 
@@ -48,14 +61,14 @@ Three-piece landmark; negative space around the shaft; lower stable loop versus 
 
 Dense spokes that hide players; bloom that erases the Core's silhouette; mandatory narrow jumps.
 
-## Generation proposal
+## Generation provenance
 
-GPT Image 2.5 / Flare / medium / 1k / 16:9, one output. Canvas generation node: `7666f1a3-1c0a-43d3-ada1-2b4b75fc2750`. Prompt and source-image nodes are connected; the Canvas adapter accepts one source-image connection per generation. The exact editable prompt is in [reference-plan.json](reference-plan.json).
+GPT Image 2.5 / Flare / medium / 1k / 16:9, one completed direct-API output. The original Canvas recipe node `7666f1a3-1c0a-43d3-ada1-2b4b75fc2750` failed without returning a generation job ID. Its result image was added separately to the board; the successful job and original PNG are recorded above. The exact successful prompt is in [reference-plan.json](reference-plan.json).
 
-## Acceptance before implementation
+## Remaining gates before implementation
 
-- Record the actual job ID, output URL, reviewer and verdict after generation. Credit approval alone is not concept approval.
+- Actual job, output, hash and Codex review are recorded above. Visual direction/component acceptance is not production or gameplay validation.
 - Verify this design question is answered, the floor/return route is visible and blocky figures establish scale.
 - Reject hidden gaps, blocked cargo turns, misleading decorative routes or unreadable bloom. Record the reason; a paid retry needs separate confirmation.
-- Rewrite SpatialLessons from the accepted image while distinguishing observations from measured greybox choices.
+- SpatialLessons now follow the reviewed output; measure and revise authoring hypotheses in the greybox.
 - Build the smallest authoring test, then test traversal, largest cargo proxy, four players and delayed streaming. Record timings and device performance before an art pass.

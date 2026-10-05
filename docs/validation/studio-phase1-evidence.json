@@ -1,0 +1,219 @@
+{
+  "date": "2026-10-05",
+  "transport": "official Roblox Studio MCP via configured StudioMCP stdio executable",
+  "server_version": "1.0.0",
+  "place_name": "OddvaultCommandBarTest.rbxl",
+  "published_place_id": 0,
+  "single_client": true,
+  "code_commit": "197c596",
+  "results": {
+    "before_install": {
+      "Streaming": true,
+      "RuntimeMaps": 1,
+      "Templates": 7,
+      "Owned": true,
+      "CurrentSource": true,
+      "Version": "0.1.0"
+    },
+    "installer": {
+      "PreviewMaps": 1,
+      "Streaming": true,
+      "Templates": 7,
+      "BackupCount": 1,
+      "Owned": true
+    },
+    "server_start": {
+      "DebugReady": true,
+      "PlayerCount": 1,
+      "HubMode": "Enum.ModelStreamingMode.Persistent",
+      "RuntimeMaps": 1,
+      "World": true
+    },
+    "client_start": {
+      "UI": true,
+      "Streaming": true,
+      "RootPosition": "-4.3655745685100555e-11, 3.9980251789093018, -71.99947357177734"
+    },
+    "extraction_distance": {
+      "Target": "Workspace.OddvaultWorld.RiftRuntime.Rift_234e4f40-9492-4cb1-ab74-57f890e742dc.Geometry.Room_6_Extraction.Extraction",
+      "Distance": 3.227949857711792,
+      "Root": "1535.902587890625, 2.9980251789093018, 663.0669555664062"
+    },
+    "extraction_server": {
+      "Root": "0, 2.998046875, -60",
+      "MapCount": 0,
+      "JumpPower": 50,
+      "WalkSpeed": 16
+    },
+    "extraction_client": {
+      "Root": "1.5261321095749736e-09, 2.9980251789093018, -60",
+      "Hint": "Route complete. Artifact recovery arrives in Phase 2."
+    },
+    "cell_test": {
+      "Generated": {
+        "1": {
+          "RiftId": "c71ba85d-2545-43ec-88e5-6b3df57b8f62",
+          "Statistics": {
+            "Lights": 2,
+            "NPCs": 0,
+            "PhysicsParts": 0,
+            "BaseParts": 295,
+            "Instances": 419,
+            "ParticleEmitters": 0,
+            "Artifacts": 0
+          },
+          "CellId": "A",
+          "Seed": 101
+        },
+        "4": {
+          "RiftId": "863a2686-00f1-4cc0-b7c1-9d795b701150",
+          "Statistics": {
+            "Lights": 2,
+            "NPCs": 0,
+            "PhysicsParts": 0,
+            "BaseParts": 299,
+            "Instances": 425,
+            "ParticleEmitters": 0,
+            "Artifacts": 0
+          },
+          "CellId": "D",
+          "Seed": 104
+        },
+        "3": {
+          "RiftId": "71735873-e57b-4c35-ab64-9b46a0d973ec",
+          "Statistics": {
+            "Lights": 2,
+            "NPCs": 0,
+            "PhysicsParts": 0,
+            "BaseParts": 293,
+            "Instances": 417,
+            "ParticleEmitters": 0,
+            "Artifacts": 0
+          },
+          "CellId": "C",
+          "Seed": 103
+        },
+        "2": {
+          "RiftId": "1532f485-42c4-4daa-b702-99e925c10ac4",
+          "Statistics": {
+            "Lights": 2,
+            "NPCs": 0,
+            "PhysicsParts": 0,
+            "BaseParts": 297,
+            "Instances": 421,
+            "ParticleEmitters": 0,
+            "Artifacts": 0
+          },
+          "CellId": "B",
+          "Seed": 102
+        }
+      },
+      "RuntimeModelsAfter": 0,
+      "AfterCleanup": {
+        "CellsInUse": 0
+      },
+      "BeforeCleanup": {
+        "CellsInUse": 4,
+        "Rifts": {
+          "1": {
+            "State": "Ready",
+            "CellId": "B",
+            "Seed": 102,
+            "Statistics": {
+              "Lights": 2,
+              "NPCs": 0,
+              "PhysicsParts": 0,
+              "BaseParts": 297,
+              "Instances": 421,
+              "ParticleEmitters": 0,
+              "Artifacts": 0
+            },
+            "RiftId": "1532f485-42c4-4daa-b702-99e925c10ac4"
+          },
+          "4": {
+            "State": "Ready",
+            "CellId": "C",
+            "Seed": 103,
+            "Statistics": {
+              "Lights": 2,
+              "NPCs": 0,
+              "PhysicsParts": 0,
+              "BaseParts": 293,
+              "Instances": 417,
+              "ParticleEmitters": 0,
+              "Artifacts": 0
+            },
+            "RiftId": "71735873-e57b-4c35-ab64-9b46a0d973ec"
+          },
+          "3": {
+            "State": "Ready",
+            "CellId": "A",
+            "Seed": 101,
+            "Statistics": {
+              "Lights": 2,
+              "NPCs": 0,
+              "PhysicsParts": 0,
+              "BaseParts": 295,
+              "Instances": 419,
+              "ParticleEmitters": 0,
+              "Artifacts": 0
+            },
+            "RiftId": "c71ba85d-2545-43ec-88e5-6b3df57b8f62"
+          },
+          "2": {
+            "State": "Ready",
+            "CellId": "D",
+            "Seed": 104,
+            "Statistics": {
+              "Lights": 2,
+              "NPCs": 0,
+              "PhysicsParts": 0,
+              "BaseParts": 299,
+              "Instances": 425,
+              "ParticleEmitters": 0,
+              "Artifacts": 0
+            },
+            "RiftId": "863a2686-00f1-4cc0-b7c1-9d795b701150"
+          }
+        }
+      },
+      "Fifth": {
+        "Error": "All Rift cells are occupied"
+      }
+    },
+    "console": "[Oddvault] Phase 1 world foundation ready. Artifact recovery, hazards and persistence are Phase 2+.",
+    "first_entry_client": {
+      "Root": "1536, 2.9980251789093018, -24",
+      "Hint": "Follow the countertop to the cyan extraction gate.",
+      "RiftId": "ba176ce8-81fb-4d4a-892f-c0070984d8f9"
+    },
+    "complete_route_entry": {
+      "Root": "1536, 2.99609375, -24",
+      "WalkSpeed": 16,
+      "RiftId": "234e4f40-9492-4cb1-ab74-57f890e742dc"
+    },
+    "archive_inspection": {
+      "BackupRootCount": 5,
+      "PlaceId": 0,
+      "BackupRoots": {
+        "1": "OddvaultClient",
+        "3": "OddvaultShared",
+        "2": "OddvaultServer",
+        "5": "OddvaultWorld",
+        "4": "OddvaultTemplates"
+      },
+      "Templates": 7
+    }
+  },
+  "scope_limits": [
+    "no physical artifact carrying",
+    "no two-client joining/disconnect tests",
+    "no delayed-network test",
+    "no mobile hardware performance measurement",
+    "no Fracture Nexus greybox/art pass"
+  ],
+  "test_sessions": "Initial entry check, then a fresh complete route/extraction session after refreshing Studio mode.",
+  "test_stop_returned": "Game Stopped",
+  "latest_state_refresh": "Play; Studio mode changed between calls. Re-read mode before subsequent tools; no further state change was requested.",
+  "no_writes_to_published_main_place": true
+}

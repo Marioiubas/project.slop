@@ -1,6 +1,19 @@
 # G — Portal Hub / Dimensional Atlas
 
-Status: **pending generation and review**. No new Higgsfield output exists or is approved. These specifications are initial greybox hypotheses, not measurements inferred from concept art.
+![Generated Portal Hub / Dimensional Atlas](generated/portal-hub-atlas.png)
+
+Job: `d8728dec-c2ce-45f5-998e-ce95041e4092`. GPT Image 2.5 / Flare / medium / 1k. Actual output: 1344 × 752. The original PNG and hash are recorded in [generated/manifest.json](generated/manifest.json).
+
+## GeneratedObservation
+
+The primary gate dominates the left approach. A museum/research facade gives a visible home destination, while a three-node Atlas occupies a side plinth. Two figures bring a jar artifact toward the plaza. The museum entrance is reached by stairs, so the image does not supply a proven heavy-cargo route into the gallery.
+
+## ReviewVerdict
+
+accepted composition only. Add reliable cargo access to the museum before accepting the layout. Remove unnecessary floating backdrop pieces and avoid presenting three Atlas nodes as already functional progression.
+
+
+Status: **accepted composition only**. Reviewed by Codex on 5 October 2026 after the user approved generation. This is acceptance of the stated visual direction/components, not user approval of production geometry. Dimensions below are proposed authoring values, not image measurements.
 
 ## ReferenceIntent
 
@@ -14,27 +27,27 @@ The Hub / Museum panel uses a central portal landmark and a research/gallery pla
 
 ## SpatialLessons
 
-Use the existing 224-stud plaza as context. Reserve a 32-stud return lane and 32 × 32 turning area; put Atlas browsing beside the lane and keep the join station approach clear. A 48 × 48 museum bay is an initial authoring target, not persistent museum implementation.
+Preserve the existing 224-stud plaza context, a 32-stud arrival lane and 32 × 32 turning pad. Keep Atlas users beside the lane. Replace the depicted museum stair-only approach with a level gallery entrance or a separately tested broad ramp; a proposed 48 × 48 bay is only an authoring target.
 
 ## GameplayLessons
 
-Returning produces spatial relief and a visible next destination. Three Atlas nodes show discovery as a proposed feature; museum placement/persistence and progression remain unimplemented.
+Accept safe-home composition, landmark placement and side-station separation. Reject the stair-only cargo layout as a direct implementation plan. Atlas discoveries, museum placement and persistence are future features, not active Phase 1 progression.
 
 ## PaletteLessons
 
-Warm cream and wood, ink research structures, gold progress accents and cyan travel. Calm directional lighting contrasts with fractured rooms. Bounded violet/magenta fracture seams may follow the new supplied boards; cyan remains the consistent safe-travel cue. Test silhouettes and floor edges without bloom.
+Warm cream/gold plaza and ink research masses; cyan travel, limited Atlas projection. Keep distant violet fragments subordinate to stable home.
 
 ## AssetList
 
-Primary gate, low-detail Atlas rings/nodes, research counter, display plinths, wing signage, return landing.
+Primary gate; level/ramped gallery entrance; small Atlas plinth/rings; research counters; display bays; arrival pad.
 
 ## VFXList
 
-Bounded Atlas projection, one portal plane and mild plinth highlight; no full-plaza neon.
+Bounded Atlas projection, one gate plane and mild display highlight; no full-plaza glow.
 
 ## AudioImplications
 
-Stable warm ambience; return cue resolves the Rift sound; discovery cue belongs to a later implemented event.
+Warm stable ambience and return resolution cue; discovery sounds belong to implemented events.
 
 ## TechnicalRisks
 
@@ -48,14 +61,14 @@ Stable composition; portal-first orientation; quiet museum destination; warm hom
 
 Huge UI holograms masking players; fake active discovery UI; physics-enabled artifacts left to accumulate.
 
-## Generation proposal
+## Generation provenance
 
-GPT Image 2.5 / Flare / medium / 1k / 16:9, one output. Canvas generation node: `6f07eeaa-2321-4c28-b6d8-86028189286b`. Prompt and source-image nodes are connected; the Canvas adapter accepts one source-image connection per generation. The exact editable prompt is in [reference-plan.json](reference-plan.json).
+GPT Image 2.5 / Flare / medium / 1k / 16:9, one completed direct-API output. The original Canvas recipe node `6f07eeaa-2321-4c28-b6d8-86028189286b` failed without returning a generation job ID. Its result image was added separately to the board; the successful job and original PNG are recorded above. The exact successful prompt is in [reference-plan.json](reference-plan.json).
 
-## Acceptance before implementation
+## Remaining gates before implementation
 
-- Record the actual job ID, output URL, reviewer and verdict after generation. Credit approval alone is not concept approval.
+- Actual job, output, hash and Codex review are recorded above. Visual direction/component acceptance is not production or gameplay validation.
 - Verify this design question is answered, the floor/return route is visible and blocky figures establish scale.
 - Reject hidden gaps, blocked cargo turns, misleading decorative routes or unreadable bloom. Record the reason; a paid retry needs separate confirmation.
-- Rewrite SpatialLessons from the accepted image while distinguishing observations from measured greybox choices.
+- SpatialLessons now follow the reviewed output; measure and revise authoring hypotheses in the greybox.
 - Build the smallest authoring test, then test traversal, largest cargo proxy, four players and delayed streaming. Record timings and device performance before an art pass.

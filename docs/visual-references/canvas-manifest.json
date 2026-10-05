@@ -2,7 +2,7 @@
   "date": "2026-10-05",
   "room_id": "14cf29ef-6f18-435f-bf10-b309b078c5ea",
   "canvas_url": "https://higgsfield.ai/canvas/14cf29ef-6f18-435f-bf10-b309b078c5ea",
-  "node_count": 49,
+  "node_count": 57,
   "edges": [
     {
       "id": "07e928ce-3da8-4718-9cae-8146bdcc5551",
@@ -103,6 +103,22 @@
   ],
   "nodes": [
     {
+      "id": "02ce887c-be4b-4ebb-8f20-7df7eb7be1fd",
+      "type": "media",
+      "x": 3900,
+      "y": 860,
+      "width": 533,
+      "height": 300
+    },
+    {
+      "id": "0d635bd0-347e-49e6-9004-24a54b19761e",
+      "type": "media",
+      "x": 6240,
+      "y": 860,
+      "width": 533,
+      "height": 300
+    },
+    {
       "id": "11784f50-fbb3-4008-9e4f-126e4aac1467",
       "type": "text",
       "x": 6240,
@@ -114,7 +130,7 @@
       "id": "17fb5764-a633-4206-92f4-d90e5294baae",
       "type": "text",
       "x": 3120,
-      "y": 980,
+      "y": 1220,
       "width": 620,
       "height": 664
     },
@@ -130,7 +146,7 @@
       "id": "1d6bfb0d-c2bd-463e-8018-da146dfa5ebf",
       "type": "text",
       "x": 6240,
-      "y": 980,
+      "y": 1220,
       "width": 620,
       "height": 609
     },
@@ -146,7 +162,7 @@
       "id": "2de920ab-3b93-4334-8195-8ffd8aad10e6",
       "type": "text",
       "x": 3120,
-      "y": 2580,
+      "y": 2820,
       "width": 620,
       "height": 591
     },
@@ -157,6 +173,14 @@
       "y": 300,
       "width": 620,
       "height": 175
+    },
+    {
+      "id": "3466d5d0-b842-4655-85ef-4d3b691d3c60",
+      "type": "media",
+      "x": 3120,
+      "y": 860,
+      "width": 533,
+      "height": 300
     },
     {
       "id": "3bd93148-5943-47ee-bcc1-d992409a22c1",
@@ -170,7 +194,7 @@
       "id": "3efa195d-9a82-4469-85f0-df707b2032d0",
       "type": "text",
       "x": 3900,
-      "y": 980,
+      "y": 1220,
       "width": 620,
       "height": 573
     },
@@ -189,6 +213,14 @@
       "y": 0,
       "width": 700,
       "height": 48
+    },
+    {
+      "id": "55f7780a-133e-4175-92f0-71d3891b9aab",
+      "type": "media",
+      "x": 5460,
+      "y": 860,
+      "width": 400,
+      "height": 300
     },
     {
       "id": "57ab67e8-2098-45df-8bc5-cfc3066d78ad",
@@ -210,7 +242,7 @@
       "id": "5abe1e93-e385-4ea8-a729-8fe27133d601",
       "type": "text",
       "x": 3120,
-      "y": 4180,
+      "y": 4420,
       "width": 620,
       "height": 591
     },
@@ -287,6 +319,14 @@
       "height": 48
     },
     {
+      "id": "89496cb3-2bed-49c5-b488-b6910e403c3e",
+      "type": "media",
+      "x": 3120,
+      "y": 2460,
+      "width": 533,
+      "height": 300
+    },
+    {
       "id": "8b971405-17b6-4751-9c93-d74c77574089",
       "type": "media",
       "x": -780,
@@ -298,7 +338,7 @@
       "id": "94c2c922-edc4-442e-8e7b-0a6f56323812",
       "type": "text",
       "x": 5460,
-      "y": 980,
+      "y": 1220,
       "width": 620,
       "height": 627
     },
@@ -423,12 +463,28 @@
       "height": 59
     },
     {
+      "id": "cd35dcd6-0889-40dd-8fcd-f6839a0771db",
+      "type": "media",
+      "x": 0,
+      "y": 2460,
+      "width": 533,
+      "height": 300
+    },
+    {
       "id": "d0146e32-33da-4a3f-8694-c93a362b4e9a",
       "type": "text",
       "x": 4680,
       "y": 90,
       "width": 620,
       "height": 59
+    },
+    {
+      "id": "dc226832-40db-41c9-9395-7409a80e7777",
+      "type": "media",
+      "x": 4680,
+      "y": 860,
+      "width": 533,
+      "height": 300
     },
     {
       "id": "df7d2ecf-3a31-458f-9adc-3ac093e39b46",
@@ -445,6 +501,14 @@
       "y": 4300,
       "width": 700,
       "height": 467
+    },
+    {
+      "id": "e3c82c6a-64d8-465f-82c2-2035a74c6002",
+      "type": "media",
+      "x": 3120,
+      "y": 4060,
+      "width": 533,
+      "height": 300
     },
     {
       "id": "e49a9261-1ec5-45d9-ac9d-f9576f56384e",
@@ -482,7 +546,7 @@
       "id": "f420464e-52c2-411d-9280-d20e4222279f",
       "type": "text",
       "x": 4680,
-      "y": 980,
+      "y": 1220,
       "width": 620,
       "height": 609
     },
@@ -490,23 +554,23 @@
       "id": "f45113c8-22bc-4331-a93f-8c555e2bedef",
       "type": "text",
       "x": 0,
-      "y": 2580,
+      "y": 2820,
       "width": 620,
       "height": 573
     }
   ],
-  "overlap_count": 0,
-  "generation_results": 0,
-  "preflight_status": "preview",
-  "charged_generation_nodes": [
-    "a0fd21cc-bc48-498d-b497-94b17263c875",
-    "94e6e68c-f7d7-458a-89de-1f36bcdc433c",
-    "7666f1a3-1c0a-43d3-ada1-2b4b75fc2750",
-    "b0c77c66-5546-4b00-906f-e919e0fd25be",
-    "57ab67e8-2098-45df-8bc5-cfc3066d78ad",
-    "a77069fa-5bc0-4455-a68a-45263307cbb4",
-    "6f07eeaa-2321-4c28-b6d8-86028189286b",
-    "594b9e43-f25d-4108-9fe1-2601103108e6"
+  "generation_results": 8,
+  "result_image_nodes": [
+    "3466d5d0-b842-4655-85ef-4d3b691d3c60",
+    "dc226832-40db-41c9-9395-7409a80e7777",
+    "89496cb3-2bed-49c5-b488-b6910e403c3e",
+    "02ce887c-be4b-4ebb-8f20-7df7eb7be1fd",
+    "0d635bd0-347e-49e6-9004-24a54b19761e",
+    "e3c82c6a-64d8-465f-82c2-2035a74c6002",
+    "cd35dcd6-0889-40dd-8fcd-f6839a0771db",
+    "55f7780a-133e-4175-92f0-71d3891b9aab"
   ],
-  "generation_confirmed": false
+  "canvas_generation_attempt": "failed_without_generation_job_ids",
+  "successful_generation_route": "direct Higgsfield image tools",
+  "generation_confirmed": true
 }

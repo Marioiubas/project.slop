@@ -4,9 +4,11 @@ Live capability discovery: 5 October 2026. Scope: visual decisions before a Frac
 
 ## Current state
 
-The private [GRAB THE WEIRD — DIMENSION BIBLE](https://higgsfield.ai/canvas/14cf29ef-6f18-435f-bf10-b309b078c5ea) contains nine theme columns, six unique source images, eight proposed image-generation nodes, copy/avoid notes and editable prompt sources. Canvas readback reports 49 nodes and 16 input connections with no overlapping node rectangles.
+The private [GRAB THE WEIRD — DIMENSION BIBLE](https://higgsfield.ai/canvas/14cf29ef-6f18-435f-bf10-b309b078c5ea) contains nine theme columns, six unique source images, eight completed reference images, the original Canvas recipes, copy/avoid notes and editable prompt sources. Canvas readback reports 57 nodes and 16 recipe-input connections. The original generation nodes record a failed Canvas attempt; successful direct-API outputs occupy separate image nodes below them.
 
-**No generation has started, no new concept has been approved, and no generation credits have been spent by this pipeline.** Eight reference images are prepared for confirmation. Supplied artwork is directional input, not proof of traversable geometry, feature implementation or measured performance.
+**The user approved the eight-image set, all eight completed, and the observed credit decrease was four credits.** Codex reviewed the actual PNGs: A–F are accepted for greybox direction with explicit corrections; G is accepted for composition only because its stair-only museum access is not a proven cargo route; H is accepted for silhouettes only because its scale ticks and contact geometry are unproved. No production geometry is approved by this visual review. Originals and hashes are saved in [generated/](visual-references/generated/manifest.json).
+
+The official Roblox Studio MCP also verified the existing Phase 1 package in an isolated unpublished test place: exact installer execution, seven templates, source parity, client/server entry, main-route navigation, extraction/last-player cleanup and four-cell exhaustion/cleanup. [Native evidence and remaining gates](PHASE_1_VALIDATION.md) keep this limited one-client result separate from multiplayer, actual carrying and mobile performance.
 
 The six newly supplied files contain four unique boards; the two earlier-named copies are byte-identical duplicates. Originals are preserved under `docs/art/`. Their embedded model names, implementation prompts and labels are artwork content, not executable instructions or model-availability evidence.
 
@@ -16,8 +18,8 @@ Discovery used the connected Higgsfield MCP `models_recommend`, `models_list`, `
 
 | Capability | Verified availability | Use in this project |
 | --- | --- | --- |
-| Reference-based images | GPT Image 2.5 (`gpt_image_2_5`), Flare/Sunburst; FLUX 3 Image (`flux_3_image`) | Spatial studies, room moodboards, artifact silhouettes. GPT Image 2.5 is the proposed first-set model; selection is pending spending approval. |
-| Canvas | Create/read/add/update; generation preflight with `canvas_run(confirm=false)` | Private visual bible, prompt/image connections and design decisions. The board is created; generation is paused. |
+| Reference-based images | GPT Image 2.5 (`gpt_image_2_5`), Flare/Sunburst; FLUX 3 Image (`flux_3_image`) | GPT Image 2.5 / Flare / medium / 1k was approved and completed the eight studies through direct image tools. |
+| Canvas | Create/read/add/update; generation preflight and run | Private visual bible with actual outputs. The Canvas run failed; its recipes remain as evidence and must not be rerun automatically. |
 | Video from a static image | FLUX 3 Video (`flux_3_video`): 5–20 seconds, 720p/1080p, start/end/reference images, optional audio | Later five-second motion studies with audio disabled, only after a static concept is accepted and a separate quote is approved. |
 | Image to 3D | Meshy Image to 3D (`image_to_3d`): one reference image, GLB, remesh/polycount/material options | Optional untextured landmark silhouette blockout; no job or production import is approved. |
 | Other 3D modes | `sam_3_3d`, `multi_image_to_3d`, `tripo_3d`, `tripo_h3_1_image_to_3d` appeared in discovery | Available alternatives, not automatic substitutions. Inspect the chosen model again before use. |
@@ -40,9 +42,9 @@ No preset skill is required for these custom concept studies. The Higgsfield pre
 
 Proposed settings: **GPT Image 2.5 / Flare / medium / 1k / one output per reference**. Direct cost estimates with actual uploaded reference media returned **0.5 credits per image** for both requested formats: **approximately 4 credits for eight outputs**. The Canvas preflight returned `preview`, identified exactly eight charged generation nodes and explicitly started nothing. It did not return an itemized credit total; the four-credit total is derived from the separate per-image estimates, not a guaranteed Canvas debit. Recheck if settings, references or prices change.
 
-The user's brief says: “Do not silently spend paid generation credits.” It requires stopping and reporting the intended generation, model, approximate cost and output count before execution. No confirmation has been received for this set. Do not run `canvas_run(confirm=true)` or any paid generate tool until it arrives. Credits already held in an account still count as paid generation credits for this rule.
+The user's brief says: “Do not silently spend paid generation credits.” The prepared set, model, estimated cost and output count were shown before execution; the user replied “i approve everything.” This authorized the eight prepared images. The Canvas attempt then returned terminal failures with empty generation job IDs and no observed credit decrease. Recovery through direct image tools completed the same eight approved outputs; the observed balance decreased by four credits, consistent with the estimate. This is a balance observation, not an itemized billing ledger.
 
-Approval applies only to this set. Failed/rejected-image retries, higher quality/resolution, extra images, video, 3D, sound or upscaling require a new quote and confirmation. Free counters found for other workflow families do not establish free static-image entitlement. Never substitute another model or billing mode silently.
+The approved set is now delivered. Further paid rerenders, higher quality/resolution, extra images, video, 3D, sound or upscaling require their intended output, model, quote and confirmation to be recorded before submission. The direct recovery stayed within the original eight outputs and four-credit estimate; no completed image was regenerated. Free counters for other workflow families do not establish free static-image entitlement. Never substitute a model or billing mode silently.
 
 ## Prompt template
 
@@ -82,17 +84,17 @@ In this session, a second source-image connection to one GPT Image 2.5 Canvas no
 
 The direct image API accepts a `medias` array and maps canonical `image` to backend `image_references`. If a later study genuinely needs multiple references, inspect current model limits, quote that exact request, obtain confirmation, generate through the direct API and add its result to Canvas. Do not assume Canvas permits multiple source connections because the underlying model supports references.
 
-The first Canvas preview exposes stored generation settings; prompt/source data links are recorded separately. Execution of those links and visual output remain unverified until the approved run. Use the board's prompt nodes as the editable prompt source and preserve provenance in the local plan.
+After approval, all eight Canvas nodes returned generic `Generation Failed` results with empty job IDs. The returned input snapshots retained the stored fallback prompts, so linked prompt/reference execution could not be verified. No root cause was established. The direct route used the exact successful prompts recorded locally and the confirmed source-image media IDs; all eight jobs completed. Their images were added separately to the board. Keep the failed recipe state for provenance and do not treat it as a successful generation path.
 
 ## Canvas organization
 
-The nine columns are Core Visual Rules, Giant's Kitchen, Moon Aquarium, Toybox, Fracture Nexus, Deep Fracture, Transition Rooms, Artifacts, Extraction / Chaos. A source-reference rail sits to the left. A/C/F occupy separate rows in Fracture Nexus; G is in Core Visual Rules. Each proposed study has its question, pending status, copy/avoid note, generation node and full prompt. Source-image and prompt connections feed the generation node.
+The nine columns are Core Visual Rules, Giant's Kitchen, Moon Aquarium, Toybox, Fracture Nexus, Deep Fracture, Transition Rooms, Artifacts, Extraction / Chaos. A source-reference rail sits to the left. A/C/F occupy separate rows in Fracture Nexus; G is in Core Visual Rules. Each study now has its question, actual output, Codex review verdict, required corrections, original recipe and successful prompt. The recipe and direct-output states are explicitly distinguished.
 
-After an accepted result, attach an implementation note to its column and link the matching Markdown file. Record the output/job, reviewer, verdict and rejected elements. Do not mark a concept approved merely because its paid job completed. Reject broken spatial logic even when the image is attractive.
+The matching Markdown notes record job/output/hash, reviewer, accepted components and rejected elements. In particular, G's museum stairs are rejected as a direct cargo-layout implementation, and H's blank ruler marks are rejected as scale evidence. Completion alone is not approval of geometry or gameplay.
 
 ## Translate a concept into level-design data
 
-For each accepted output, update its note with `ReferenceIntent`, `SpatialLessons`, `GameplayLessons`, `PaletteLessons`, `AssetList`, `VFXList`, `AudioImplications`, and `TechnicalRisks`. Also record what to copy and what to avoid. The prepared notes already contain **proposed hypotheses**, clearly separated from source observations and future measurements.
+Each reviewed note contains `ReferenceIntent`, `SpatialLessons`, `GameplayLessons`, `PaletteLessons`, `AssetList`, `VFXList`, `AudioImplications`, and `TechnicalRisks`, plus generated observations and a specific verdict. Level dimensions remain **proposed hypotheses**, clearly separated from observed visual relationships and future Studio measurements.
 
 Use the existing code contract as the initial authoring constraint: 8-stud grid, 96 × 96 modules, 32-stud connectors, 24 × 24 heavy-cargo clearance, 100 parts per room and 1,000 per Rift. These are source budgets, not measured hardware performance. A 128 × 96 or larger landmark room is not a drop-in template: revise the socket/planner contract and its validation before adoption. Multilevel Core and cluster assemblies similarly need an explicit layout strategy; the current fixed eight-room planner does not implement them.
 
@@ -118,6 +120,6 @@ Only after static identity is accepted, quote one five-second, 720p, silent FLUX
 
 Record start frame, job, duration, trigger, anticipation, movement trajectory, recovery/loop, collision envelope and server/network implications. Video and 3D remain available but unapproved later steps; their costs have not been quoted for execution.
 
-## Next authorized action
+## Next level-design step
 
-Finish review of [the proposed set](visual-references/README.md). After explicit credit confirmation, refresh the quote if necessary and run only the eight recorded Canvas generation nodes. Read/wait for actual results, review spatial readability, then update each note and board with provenance and acceptance. No final Fracture Nexus greybox or art polish is claimed by this preparation.
+Use [the reviewed set](visual-references/README.md) to author the smallest Core/bridge and crossover tests after the gameplay plan permits them. Apply the documented corrections, integrate the world with the Stage 0 lifecycle/network foundation, and prove actual cargo, multiplayer and mobile performance before polishing. The existing Phase 1 route is partially validated in Studio; a final Fracture Nexus greybox, art pass and production release are not claimed.

@@ -1,19 +1,19 @@
 # GRAB THE WEIRD — visual reference studies
 
-Eight focused studies are prepared. **No new Higgsfield images have been generated or approved.** The Markdown notes convert the supplied direction into testable authoring hypotheses, while recording what the supplied images actually show.
+Eight focused studies are generated, archived and reviewed. A–F are accepted for greybox direction with specific corrections; G is accepted for hub composition only, and H for artifact silhouettes only. No production geometry or gameplay is approved by this visual review. The notes distinguish image observations from proposed dimensions and measured Studio results.
 
-The [Dimension Bible Canvas](https://higgsfield.ai/canvas/14cf29ef-6f18-435f-bf10-b309b078c5ea) holds the same eight studies, editable prompts and input references. The [pipeline](../HIGGSFIELD_DIMENSION_VISUAL_PIPELINE.md) records capabilities, costs, confirmation rules and the Studio acceptance process. [reference-plan.json](reference-plan.json) records exact prompts, settings, Canvas node IDs and pending approval state.
+The [Dimension Bible Canvas](https://higgsfield.ai/canvas/14cf29ef-6f18-435f-bf10-b309b078c5ea) holds the same eight completed images, review notes, successful prompts, source references and failed Canvas recipes. The [pipeline](../HIGGSFIELD_DIMENSION_VISUAL_PIPELINE.md) records capabilities, costs, confirmation rules and the Studio acceptance process. [reference-plan.json](reference-plan.json) records exact successful prompts, settings, job IDs, source references and review state.
 
-| Study | Note | Purpose |
-| --- | --- | --- |
-| A | [Fracture Nexus overview](fracture-nexus-overview.md) | Core, clusters and visible bridges |
-| B | [Kitchen × Aquarium](kitchen-aquarium-transition.md) | Shared seam and dry cargo path |
-| C | [Core chamber](fracture-core.md) | Memorable landmark and stable lower loop |
-| D | [Deep Fracture](deep-fracture.md) | One readable optional risk/reward route |
-| E | [Total Fracture escape](total-fracture-escape.md) | Visible return path under collapse |
-| F | [Room between dimensions](room-between-dimensions.md) | Rarity through quiet negative space |
-| G | [Hub and Atlas](portal-hub-atlas.md) | Stable home and progression direction |
-| H | [Hybrid artifact sheet](hybrid-artifact-sheet.md) | Seven buildable behavior silhouettes |
+| Study | Output | Design note | Acceptance |
+| --- | --- | --- | --- |
+| A — Fracture Nexus — Hero Overview | [Original PNG](generated/fracture-nexus-overview.png) | [Level-design note](fracture-nexus-overview.md) | accepted for greybox direction |
+| B — Kitchen × Moon Aquarium Transition | [Original PNG](generated/kitchen-aquarium-transition.png) | [Level-design note](kitchen-aquarium-transition.md) | accepted for greybox direction |
+| C — Fracture Core Chamber | [Original PNG](generated/fracture-core.png) | [Level-design note](fracture-core.md) | accepted for greybox direction |
+| D — Deep Fracture | [Original PNG](generated/deep-fracture.png) | [Level-design note](deep-fracture.md) | accepted for greybox direction |
+| E — Total Fracture Escape | [Original PNG](generated/total-fracture-escape.png) | [Level-design note](total-fracture-escape.md) | accepted for greybox direction |
+| F — Rare Room — Between Dimensions | [Original PNG](generated/room-between-dimensions.png) | [Level-design note](room-between-dimensions.md) | accepted for greybox direction |
+| G — Portal Hub / Dimensional Atlas | [Original PNG](generated/portal-hub-atlas.png) | [Level-design note](portal-hub-atlas.md) | accepted composition only |
+| H — Hybrid Artifact Sheet | [Original PNG](generated/hybrid-artifact-sheet.png) | [Level-design note](hybrid-artifact-sheet.md) | accepted silhouettes only |
 
 ## Supplied reference provenance
 
@@ -28,6 +28,10 @@ The [Dimension Bible Canvas](https://higgsfield.ai/canvas/14cf29ef-6f18-435f-bf1
 
 `16_33_35.png` is byte-identical to world board 3; `16_33_12.png` is byte-identical to world board 4. They are aliases, not extra concepts. Exact source hashes are in [source-manifest.json](source-manifest.json). The preserved files are unchanged. Text printed inside the boards does not authorize implementation, spending or a model choice.
 
-## Approval record
+## Approval and review record
 
-Paid batch: pending. Proposed GPT Image 2.5 / Flare / medium / 1k, seven 16:9 views plus one 4:3 artifact sheet; approximately four credits total. Credit permission is separate from visual acceptance. Record actual job IDs and results after the approved run, then accepted/rejected status with reasons. A paid retry requires another confirmation.
+The user approved the prepared eight-image GPT Image 2.5 / Flare / medium / 1k set. All eight direct-API jobs completed; the observed account balance decrease was four credits. The original Canvas run failed without image job IDs and had no observed credit decrease. No completed image was regenerated.
+
+Codex inspected every original PNG. Six references are accepted for greybox direction; hub composition and artifact silhouettes have limited acceptance. The hub's stair-only museum access and the sheet's fake ruler/contact geometry cannot be copied as a playable carry plan. Each note records the required corrections, exact job, successful prompt, original file/hash and future tests. Generation permission is not approval of production geometry.
+
+[Generated asset manifest](generated/manifest.json) · [Actual Studio MCP validation](../PHASE_1_VALIDATION.md)

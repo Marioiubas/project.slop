@@ -1,6 +1,19 @@
 # F — Rare Room — Between Dimensions
 
-Status: **pending generation and review**. No new Higgsfield output exists or is approved. These specifications are initial greybox hypotheses, not measurements inferred from concept art.
+![Generated Rare Room — Between Dimensions](generated/room-between-dimensions.png)
+
+Job: `dfd76add-c731-494d-a299-046d46ac7151`. GPT Image 2.5 / Flare / medium / 1k. Actual output: 1344 × 752. The original PNG and hash are recorded in [generated/manifest.json](generated/manifest.json).
+
+## GeneratedObservation
+
+A plain ivory platform surrounds one raised wheeled-door pedestal. Three distant framed views into unrelated worlds contrast with one cyan return doorway. Two figures contemplate the artifact and one waits at the return. Quiet negative space creates rarity without chaos.
+
+## ReviewVerdict
+
+accepted for greybox direction. Do not make every background frame look equally usable. No physics behavior or drop-recovery guarantee can be inferred from the wheeled pedestal pose.
+
+
+Status: **accepted for greybox direction**. Reviewed by Codex on 5 October 2026 after the user approved generation. This is acceptance of the stated visual direction/components, not user approval of production geometry. Dimensions below are proposed authoring values, not image measurements.
 
 ## ReferenceIntent
 
@@ -14,27 +27,27 @@ The Rare Room Example panel uses tall door-like objects and sparse floor space. 
 
 ## SpatialLessons
 
-Keep one 96 × 96 room mostly empty. Place a 16 × 16 pedestal offset from a 24-stud straight carry lane; maintain 24-stud headroom. At most three distant doorway silhouettes; only one active return is visually prioritised.
+Use one mostly empty 96 × 96 module. Put a proposed 16 × 16 pedestal off a straight 24-stud carry lane, with 24-stud clear headroom. Keep three background frames and one usable return on the same continuous floor. Round plinth detail may be simplified to a few primitive rings.
 
 ## GameplayLessons
 
-Calm gives rarity contrast. The artifact is approachable without a navigation puzzle. Background doors are composed as views until interaction is actually implemented.
+Approach and withdrawal remain obvious. A future Runaway Door behavior must stay bounded on the accessible floor; background views are not interactive exits until actually implemented.
 
 ## PaletteLessons
 
-Ivory floor, near-black background, restrained ink frames and a single gold artifact detail; cyan only at the active return. Bounded violet/magenta fracture seams may follow the new supplied boards; cyan remains the consistent safe-travel cue. Test silhouettes and floor edges without bloom.
+Ivory/ink contrast and a small gold artifact focus; violet frame seams are secondary to cyan return. Replace the highly reflective floor with a readable simple material if glare hides edges.
 
 ## AssetList
 
-Plain floor, pedestal, Runaway Door proxy, three low-detail portal frames, active return frame.
+Plain floor; simple offset pedestal; wheeled-door proxy; three view frames; active return frame.
 
 ## VFXList
 
-Almost none: active return plane and one mild artifact highlight.
+Active return plane and mild artifact highlight only; preserve quiet contrast.
 
 ## AudioImplications
 
-Low room tone and a distinct soft door mechanism; reduce the preceding room's dense ambience.
+Low room tone and a soft distinct door mechanism; reduce density after the preceding chaotic room.
 
 ## TechnicalRisks
 
@@ -48,14 +61,14 @@ Negative space; one memorable object; rare calm; unmistakable physical floor.
 
 Explosion spectacle; decorative stepping stones; every distant door looking equally interactable.
 
-## Generation proposal
+## Generation provenance
 
-GPT Image 2.5 / Flare / medium / 1k / 16:9, one output. Canvas generation node: `a77069fa-5bc0-4455-a68a-45263307cbb4`. Prompt and source-image nodes are connected; the Canvas adapter accepts one source-image connection per generation. The exact editable prompt is in [reference-plan.json](reference-plan.json).
+GPT Image 2.5 / Flare / medium / 1k / 16:9, one completed direct-API output. The original Canvas recipe node `a77069fa-5bc0-4455-a68a-45263307cbb4` failed without returning a generation job ID. Its result image was added separately to the board; the successful job and original PNG are recorded above. The exact successful prompt is in [reference-plan.json](reference-plan.json).
 
-## Acceptance before implementation
+## Remaining gates before implementation
 
-- Record the actual job ID, output URL, reviewer and verdict after generation. Credit approval alone is not concept approval.
+- Actual job, output, hash and Codex review are recorded above. Visual direction/component acceptance is not production or gameplay validation.
 - Verify this design question is answered, the floor/return route is visible and blocky figures establish scale.
 - Reject hidden gaps, blocked cargo turns, misleading decorative routes or unreadable bloom. Record the reason; a paid retry needs separate confirmation.
-- Rewrite SpatialLessons from the accepted image while distinguishing observations from measured greybox choices.
+- SpatialLessons now follow the reviewed output; measure and revise authoring hypotheses in the greybox.
 - Build the smallest authoring test, then test traversal, largest cargo proxy, four players and delayed streaming. Record timings and device performance before an art pass.

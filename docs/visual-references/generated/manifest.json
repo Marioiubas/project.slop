@@ -1,0 +1,94 @@
+{
+  "model": "gpt_image_2_5",
+  "date": "2026-10-05",
+  "items": [
+    {
+      "slug": "fracture-nexus-overview",
+      "key": "A",
+      "job_id": "69644947-a36f-4c82-b857-615d460cc402",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Ex9ft3DRSHQHsnFxoxgTP9UmXT/hf_20261005_140228_69644947-a36f-4c82-b857-615d460cc402.png",
+      "local_file": "generated/fracture-nexus-overview.png",
+      "sha256": "d3e3593a3a8cf1fcba30797f8359c117590843ef0da29a504bd6d1c2b97bbe4e",
+      "size_bytes": 1470356,
+      "width": 1344,
+      "height": 752
+    },
+    {
+      "slug": "kitchen-aquarium-transition",
+      "key": "B",
+      "job_id": "d6e674e7-6fda-4ebb-b9a8-65d0af975d37",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Ex9ft3DRSHQHsnFxoxgTP9UmXT/hf_20261005_140426_d6e674e7-6fda-4ebb-b9a8-65d0af975d37.png",
+      "local_file": "generated/kitchen-aquarium-transition.png",
+      "sha256": "05012563a2e441e4a4de91767365ddad16b43ad3461e31bc9139a8d33e4600b6",
+      "size_bytes": 1316689,
+      "width": 1344,
+      "height": 752
+    },
+    {
+      "slug": "fracture-core",
+      "key": "C",
+      "job_id": "77d45db0-9837-4d59-b7eb-34bdd291042f",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Ex9ft3DRSHQHsnFxoxgTP9UmXT/hf_20261005_140424_77d45db0-9837-4d59-b7eb-34bdd291042f.png",
+      "local_file": "generated/fracture-core.png",
+      "sha256": "16ff797b05a1df0584058f4d6a505116d82b5add8f7903c48975228542cc09a3",
+      "size_bytes": 1364607,
+      "width": 1344,
+      "height": 752
+    },
+    {
+      "slug": "deep-fracture",
+      "key": "D",
+      "job_id": "0992d60b-6520-4eff-b8dd-42a8ed7e9e29",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Ex9ft3DRSHQHsnFxoxgTP9UmXT/hf_20261005_140426_0992d60b-6520-4eff-b8dd-42a8ed7e9e29.png",
+      "local_file": "generated/deep-fracture.png",
+      "sha256": "5934401ffe377746800660b25eff1d90d5861600388834753df0bd97d822494b",
+      "size_bytes": 1132256,
+      "width": 1344,
+      "height": 752
+    },
+    {
+      "slug": "total-fracture-escape",
+      "key": "E",
+      "job_id": "f5be0a02-d76c-42eb-b98e-a05bfc5efe24",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Ex9ft3DRSHQHsnFxoxgTP9UmXT/hf_20261005_140425_f5be0a02-d76c-42eb-b98e-a05bfc5efe24.png",
+      "local_file": "generated/total-fracture-escape.png",
+      "sha256": "21e50d21f9690392de724e8511f23c64edc9fca47eaf5a48555e60b4357de4e9",
+      "size_bytes": 1329082,
+      "width": 1344,
+      "height": 752
+    },
+    {
+      "slug": "room-between-dimensions",
+      "key": "F",
+      "job_id": "dfd76add-c731-494d-a299-046d46ac7151",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Ex9ft3DRSHQHsnFxoxgTP9UmXT/hf_20261005_140425_dfd76add-c731-494d-a299-046d46ac7151.png",
+      "local_file": "generated/room-between-dimensions.png",
+      "sha256": "37c5ce7906822f935a7a01e889607aa0bd410ee9dffd9b81a1268fe5edefb337",
+      "size_bytes": 1047494,
+      "width": 1344,
+      "height": 752
+    },
+    {
+      "slug": "portal-hub-atlas",
+      "key": "G",
+      "job_id": "d8728dec-c2ce-45f5-998e-ce95041e4092",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Ex9ft3DRSHQHsnFxoxgTP9UmXT/hf_20261005_140423_d8728dec-c2ce-45f5-998e-ce95041e4092.png",
+      "local_file": "generated/portal-hub-atlas.png",
+      "sha256": "59d3047713d2e327ff25487a43f96661cc68677b1ec8cc12bada670072579b17",
+      "size_bytes": 1444774,
+      "width": 1344,
+      "height": 752
+    },
+    {
+      "slug": "hybrid-artifact-sheet",
+      "key": "H",
+      "job_id": "d950c105-8d57-4fa5-9e9e-1552cf4afccf",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Ex9ft3DRSHQHsnFxoxgTP9UmXT/hf_20261005_140431_d950c105-8d57-4fa5-9e9e-1552cf4afccf.png",
+      "local_file": "generated/hybrid-artifact-sheet.png",
+      "sha256": "d0387c8e718adeb31ce9ff4ddb7e14dcb031ae8197cc14d8f05482ad4d040a28",
+      "size_bytes": 1183403,
+      "width": 1168,
+      "height": 880
+    }
+  ]
+}

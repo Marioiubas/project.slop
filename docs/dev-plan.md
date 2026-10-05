@@ -13,7 +13,8 @@ This file is *how and in what order*. Process rules live in [how-to-work.md](how
 
 - [x] Inspect live Higgsfield image/reference, Canvas, video and 3D capabilities.
 - [x] Prepare nine-column Dimension Bible, eight focused prompts/translation notes, and preserved supplied reference boards.
-- [ ] Obtain explicit confirmation for the proposed eight-image paid set (estimated four credits); generate and review actual outputs.
+- [x] Obtain explicit confirmation for the eight-image paid set; all eight generated and reviewed, observed credit decrease four. A–F accepted for direction; G/H have limited component acceptance with corrections.
+- [x] Use official Roblox Studio MCP to execute the installer and verify one-client entry, route navigation, extraction and four-cell exhaustion/cleanup in the isolated test place.
 - [ ] Update accepted concepts with provenance and measured Studio traversal/cargo/multiplayer/mobile results before an art pass.
 
 ---
@@ -75,7 +76,7 @@ Goal: data-driven artifacts with genuinely different behaviour.
 Goal: a 2–5 minute expedition with rising danger and a greed/risk choice.
 
 - [ ] Rift definition schema (theme, room pool, hazards, artifact pool, difficulty, extraction rules)
-- [~] Modular room assembly (handbuilt rooms, randomized chain) — standalone Phase 1 world package implemented/tested; PR integration + Studio playtest pending
+- [~] Modular room assembly (handbuilt rooms, randomized chain) — standalone Phase 1 package implemented and one-client Studio MCP route verified; PR integration, actual cargo, multiplayer and mobile gates pending
 - [ ] Rift-specific rule (the "gameplay distinction", e.g. altered gravity or unstable floors)
 - [ ] Instability clock: environment worsens over time, readable without popups
 - [ ] 2–3 hazards + optionally one wandering threat
