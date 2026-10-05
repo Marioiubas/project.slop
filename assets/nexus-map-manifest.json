@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-05",
+  "geometryExport": {
+    "Folder": "OddvaultMapExport_9e8266aa-4232-4c84-a2b0-e528b3449065",
+    "Chunks": 36,
+    "EngineRoundTrip": true,
+    "WorldDescendants": 1653,
+    "Bytes": 52993,
+    "File": "assets/OddvaultDimensionMap.rbxm",
+    "sha256": "b1338d5028a2d47a88fc9d7d8ba7bafd0060da05ad161f77e1b235794fd1eacf",
+    "Kind": "Roblox engine-generated geometry model; runtime code is in the Command Bar installer"
+  },
+  "artifacts": [
+    {
+      "file": "assets/OddvaultDimensionMap.rbxm",
+      "bytes": 52993,
+      "sha256": "b1338d5028a2d47a88fc9d7d8ba7bafd0060da05ad161f77e1b235794fd1eacf"
+    },
+    {
+      "file": "assets/OddvaultDimensionMap.rbxl",
+      "bytes": 94837,
+      "sha256": "ac81ccdadb9ba7725463b709ef305959253d85f00b2319c8782c06f7cc8765d6"
+    },
+    {
+      "file": "dist/OddvaultCommandBar.lua",
+      "bytes": 96872,
+      "sha256": "17d143026a0f1eb41922d06bd32cb2c4e7683711f73e2fcb8019ac1f182d0791"
+    }
+  ],
+  "placeProject": "map.project.json",
+  "mapRegions": 9,
+  "artifactDisplays": 7,
+  "mainStudioPlaceId": 87112781126474,
+  "publishedToRoblox": false
+}

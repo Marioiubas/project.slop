@@ -1,17 +1,19 @@
 {
   "version": "0.1.0",
   "sources": {
-    "Bootstrap": "aa840a2440308627e09b05cbdfffad599052f493c2ca15e17682d4c6c9f2d1ce",
-    "Client": "b16221a45f02151b41819dac36ced5360943d339c153bbbaa56a5bc91df1d2f8",
+    "Bootstrap": "963d1b79951a97c1c0d3cca572ea12c198200a596a7fa7a4748cf4bbf1dc218a",
+    "Client": "5392f99b8b372a857ddd8f6363314e013f57f3b80dbb90ffde43a6e16552d1d1",
     "server/DebugService": "1d62d7369a01209f13d17cfff7839ee90b1ae51c9c570d4743dd35e8df6ee18c",
+    "server/NexusBuilder": "40ffbcbac3baa90016248bea53e6cebdc09e7f88f0fdff0e544102e6802d416a",
     "server/RiftCellAllocator": "fc0e41c8fb9d7193b92cf55abdc42903af9648b7de1c3fa4cd2da98e2f0fd954",
     "server/RiftGenerator": "a14ca6b5421ddb1cf146f36e3d15584cbe0abf619d276c6ba41f99f183364904",
-    "server/RiftService": "3347e0aeaff1aeda6bd184a0f729f759fdae7a9462c72cb8eda0b0f2a0a7eeea",
-    "server/WorldBuilder": "ef0abe88f2266ff5f8f36f5313367117a193cfdbd9e7aeb64ce6cdac7434fc88",
+    "server/RiftService": "c0c2e8ec0be6f0f975369679037792f1470befb0b1682ca84978bb6a498fab82",
+    "server/VisualKit": "d52aaa09d8b2cf1d827a2f17fd58f4f8bc1dc2898829ce7e5793f1f305ee2153",
+    "server/WorldBuilder": "7d0a272abe7718cf3d54ab923d0dd98858a086a7ae77166a2b21fba5a3f1fcc1",
     "shared/Constants": "ff360521ebbd90a502f3d8a3626fc1cd27554fcbc487e2062bdb4bdc0eb2f0d5",
     "shared/DimensionDefinitions": "e5639b111dcfd3c9faf509c47c5a34dba84adcde751a20aa2d3fa9036e59b295",
     "shared/GraphPlanner": "faa1bb61ad7ef5af2eed4d3acf0c3f3d5ab3ff89d52e34e73957010a415e506f",
     "shared/RoomDefinitions": "77f52a340402e9b237e86ddf50106683604d89a722d078c0762176601d207a37"
   },
-  "installer_sha256": "0883673d1a6cafbf3caf9975067822a129bfc8644411c6dd2be754049d5798a3"
+  "installer_sha256": "17d143026a0f1eb41922d06bd32cb2c4e7683711f73e2fcb8019ac1f182d0791"
 }

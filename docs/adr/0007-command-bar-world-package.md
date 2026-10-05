@@ -22,3 +22,9 @@ The world brief asks for audit then Phase 1: allocator, socket contract, reusabl
 The package works independently of PR #2 and does not replace the main Rojo project. Stage 0 merged at 64e49a9 during publication. Integrate the world through its Lifecycle and remote registry before adopting one production architecture. Until then its remotes are a standalone adapter. Do not blindly combine both Rojo projects; review their instance mappings and network contracts.
 
 The existing Stage 0 foundation is preserved; later gameplay/playtest gates remain open. Source authority stays in Git; regenerate the Command Bar bundle after source edits.
+
+## Scope extension — illustrated map
+
+The user subsequently asked to make the approved references into the game and illustrate the map in Roblox Studio. The same portable package now includes an explorable Nexus, themed islands, museum displays and a return prompt. This explicitly extends the visual authoring scope; collectible ownership, carrying, dimension rules, rewards and production integration remain separate work.
+
+`map.project.json` packages the engine-exported map model with current source into a directly openable place file. The source recipes remain authoritative; the `.rbxm` is a reviewed geometry snapshot. Main-place edits preserve its original baseplate/spawn in an owned backup; nothing was published to Roblox live servers.

@@ -389,6 +389,32 @@ function Service.Start(self: RiftService)
 			self:Enter(player, true, join)
 		end)
 	end
+	local map = self.World:FindFirstChild("DimensionMap")
+	local tour = map and map:FindFirstChild("TourPoints")
+	local exit = tour and tour:FindFirstChild("Extraction")
+	if exit then
+		local prompt = Instance.new("ProximityPrompt")
+		prompt.ActionText, prompt.ObjectText = "Return to museum", "EXTRACTION"
+		prompt.RequiresLineOfSight, prompt.HoldDuration, prompt.MaxActivationDistance =
+			false, 0.3, 12
+		prompt.Parent = exit
+		table.insert(
+			self.Connections,
+			prompt.Triggered:Connect(function(player)
+				local root, _, character = rootOf(player)
+				if
+					root
+					and not self.Membership[player]
+					and not self.Pending[player]
+					and (root.Position - exit.Position).Magnitude <= 14
+				then
+					character:PivotTo(CFrame.new(self.World.Hub.HomeArrival.Position))
+					root.AssemblyLinearVelocity, root.AssemblyAngularVelocity =
+						Vector3.zero, Vector3.zero
+				end
+			end)
+		)
+	end
 	table.insert(
 		self.Connections,
 		self.Remotes.StreamReady.OnServerEvent:Connect(function(player, token, ready)

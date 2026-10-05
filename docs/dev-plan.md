@@ -15,6 +15,8 @@ This file is *how and in what order*. Process rules live in [how-to-work.md](how
 - [x] Prepare nine-column Dimension Bible, eight focused prompts/translation notes, and preserved supplied reference boards.
 - [x] Obtain explicit confirmation for the eight-image paid set; all eight generated and reviewed, observed credit decrease four. A–F accepted for direction; G/H have limited component acceptance with corrections.
 - [x] Use official Roblox Studio MCP to execute the installer and verify one-client entry, route navigation, extraction and four-cell exhaustion/cleanup in the isolated test place.
+- [x] Translate the approved references into an explorable native Studio map, seven artifact models and level-access museum; see [map scope](NEXUS_MAP_ILLUSTRATION.md).
+- [x] Native 383-position promenade check: 3,447 floor rays, no floor gaps and no colliding blockers for a 24 × 24 cargo proxy. Physical carrying remains a separate gate.
 - [ ] Update accepted concepts with provenance and measured Studio traversal/cargo/multiplayer/mobile results before an art pass.
 
 ---

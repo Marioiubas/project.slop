@@ -52,5 +52,5 @@ game:BindToClose(function()
 	end
 end)
 print(
-	"[Oddvault] Phase 1 world foundation ready. Artifact recovery, hazards and persistence are Phase 2+."
+	"[Oddvault] Dimension map and kitchen expedition ready. Artifact displays are visual models; recovery, dimension rules and persistence are future gameplay."
 )

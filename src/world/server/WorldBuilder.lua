@@ -1,6 +1,7 @@
 --!strict
 -- Authored kit recipes. Randomness selects whole rooms; it never scatters geometry.
 local CollectionService = game:GetService("CollectionService")
+local NexusBuilder = require(script.Parent.NexusBuilder)
 local Builder = {}
 export type RoomDefinition = {
 	RoomId: string,
@@ -337,34 +338,8 @@ function Builder.Hub(world: Model): Model
 	spawn.Material, spawn.Color, spawn.Duration = Enum.Material.SmoothPlastic, C.Wood, 0
 	spawn.Parent = hub
 	Builder.Marker(hub, "HomeArrival", Vector3.new(0, 4, -60), "OddvaultHomeArrival")
-	for _, x in ipairs({ -72, 72 }) do
-		Builder.Part(
-			hub,
-			"ResearchWing",
-			Vector3.new(48, 16, 16),
-			CFrame.new(x, 8, 64),
-			C.Ink,
-			true
-		)
-		Builder.Part(hub, "WingRoof", Vector3.new(56, 3, 24), CFrame.new(x, 18, 64), C.Gold, true)
-	end
-	Builder.Sign(hub, "MuseumWingLabel", "ODDVAULT / FUTURE GALLERY", Vector3.new(72, 12, 55), 42)
-	Builder.Sign(hub, "ResearchWingLabel", "RIFT RESEARCH", Vector3.new(-72, 12, 55), 42)
-	local stand = Builder.Part(
-		hub,
-		"DirectionStand",
-		Vector3.new(3, 9, 3),
-		CFrame.new(42, 4.5, -44),
-		C.Ink,
-		true
-	)
-	Builder.Sign(
-		hub,
-		"FoundationLabel",
-		"WORLD FOUNDATION / PHASE 1",
-		stand.Position + Vector3.new(0, 8, 0),
-		34
-	)
+	NexusBuilder.HubArt(hub)
+	NexusBuilder.Build(world, Builder)
 	Builder.Folder(world, "RiftRuntime")
 	Builder.Folder(world, "MuseumRuntime")
 	return hub

@@ -72,3 +72,7 @@ GPT Image 2.5 / Flare / medium / 1k / 16:9, one completed direct-API output. The
 - Reject hidden gaps, blocked cargo turns, misleading decorative routes or unreadable bloom. Record the reason; a paid retry needs separate confirmation.
 - SpatialLessons now follow the reviewed output; measure and revise authoring hypotheses in the greybox.
 - Build the smallest authoring test, then test traversal, largest cargo proxy, four players and delayed streaming. Record timings and device performance before an art pass.
+
+## Studio translation — 5 October 2026
+
+The user subsequently requested an in-game illustration. Native geometry now implements `Workspace.OddvaultWorld.DimensionMap.DeepFracture`. See [the map and evidence](../NEXUS_MAP_ILLUSTRATION.md) for the actual layout, clearance samples and one-client walkthrough. This implements the visual composition; the GameplayLessons remain proposals until their rules, carrying, multiplayer and performance checks are implemented.

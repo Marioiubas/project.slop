@@ -12,7 +12,8 @@ hint.Size, hint.AnchorPoint, hint.Position =
 	UDim2.new(0.9, 0, 0, 64), Vector2.new(0.5, 1), UDim2.new(0.5, 0, 1, -24)
 hint.BackgroundColor3, hint.BackgroundTransparency = Color3.fromRGB(36, 48, 69), 0.12
 hint.TextColor3, hint.Font, hint.TextSize = Color3.fromRGB(244, 246, 244), Enum.Font.GothamBold, 18
-hint.TextWrapped, hint.Text, hint.Parent = true, "Walk to the cyan portal. Find the way home.", gui
+hint.TextWrapped, hint.Text, hint.Parent =
+	true, "Explore the Nexus behind the museum, or enter the cyan Rift portal.", gui
 local limit = Instance.new("UISizeConstraint")
 limit.MaxSize, limit.Parent = Vector2.new(600, 100), hint
 local corner = Instance.new("UICorner")

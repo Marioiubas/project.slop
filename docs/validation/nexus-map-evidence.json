@@ -1,0 +1,527 @@
+{
+  "date": "2026-10-05",
+  "scope": "Explorable reference map; nine regions, seven visual artifacts. Special dimension rules and physical carrying are future work.",
+  "nativeMcpExecutable": "/Applications/RobloxStudio.app/Contents/MacOS/StudioMCP",
+  "testStudioId": "c11c7fcb-a6da-4128-bc39-c9a005318dc7",
+  "mainStudioId": "fc1dbb15-73ed-4524-b499-aea36c77128e",
+  "mainPlaceId": 87112781126474,
+  "testClearance": {
+    "isError": false,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"MapParts\":1028,\"Passed\":true,\"Regions\":9,\"SampledPositions\":383,\"MuseumArtifacts\":7,\"FloorHoles\":[],\"Blockers\":[],\"UnanchoredParts\":0,\"FloorRays\":3447}"
+      }
+    ]
+  },
+  "mainClearance": {
+    "isError": false,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"MapParts\":1028,\"Passed\":true,\"Regions\":9,\"SampledPositions\":383,\"MuseumArtifacts\":7,\"FloorHoles\":[],\"Blockers\":[],\"UnanchoredParts\":0,\"FloorRays\":3447}"
+      }
+    ]
+  },
+  "walk": [
+    {
+      "tool": "get_studio_state",
+      "arguments": {
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "- Current Studio Mode: Play\n- Available DataModels: Client, Server\n- Focused DataModel in the viewport: Server"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "character_navigation",
+      "arguments": {
+        "datamodel_type": "Client",
+        "x": 0,
+        "y": 3,
+        "z": 225,
+        "speed_multiplier": 1,
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Success"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "character_navigation",
+      "arguments": {
+        "datamodel_type": "Client",
+        "x": -64,
+        "y": 3,
+        "z": 225,
+        "speed_multiplier": 1,
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Success"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "character_navigation",
+      "arguments": {
+        "datamodel_type": "Client",
+        "x": -64,
+        "y": 3,
+        "z": 320,
+        "speed_multiplier": 1,
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Success"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "character_navigation",
+      "arguments": {
+        "datamodel_type": "Client",
+        "x": -288,
+        "y": 3,
+        "z": 320,
+        "speed_multiplier": 1,
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Success"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "character_navigation",
+      "arguments": {
+        "datamodel_type": "Client",
+        "x": -288,
+        "y": 3,
+        "z": 608,
+        "speed_multiplier": 1,
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Success"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "character_navigation",
+      "arguments": {
+        "datamodel_type": "Client",
+        "x": -288,
+        "y": 3,
+        "z": 848,
+        "speed_multiplier": 1,
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Success"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "character_navigation",
+      "arguments": {
+        "datamodel_type": "Client",
+        "x": -288,
+        "y": 3,
+        "z": 608,
+        "speed_multiplier": 1,
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Success"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "character_navigation",
+      "arguments": {
+        "datamodel_type": "Client",
+        "x": 0,
+        "y": 3,
+        "z": 608,
+        "speed_multiplier": 1,
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Success"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "character_navigation",
+      "arguments": {
+        "datamodel_type": "Client",
+        "x": 288,
+        "y": 3,
+        "z": 608,
+        "speed_multiplier": 1,
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Success"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "character_navigation",
+      "arguments": {
+        "datamodel_type": "Client",
+        "x": 288,
+        "y": 3,
+        "z": 320,
+        "speed_multiplier": 1,
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Success"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "character_navigation",
+      "arguments": {
+        "datamodel_type": "Client",
+        "x": 64,
+        "y": 3,
+        "z": 320,
+        "speed_multiplier": 1,
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Success"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "character_navigation",
+      "arguments": {
+        "datamodel_type": "Client",
+        "x": 64,
+        "y": 3,
+        "z": 392,
+        "speed_multiplier": 1,
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Success"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "character_navigation",
+      "arguments": {
+        "datamodel_type": "Client",
+        "x": 288,
+        "y": 3,
+        "z": 392,
+        "speed_multiplier": 1,
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Success"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "character_navigation",
+      "arguments": {
+        "datamodel_type": "Client",
+        "x": 288,
+        "y": 3,
+        "z": 608,
+        "speed_multiplier": 1,
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Success"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "character_navigation",
+      "arguments": {
+        "datamodel_type": "Client",
+        "x": 288,
+        "y": 3,
+        "z": 862,
+        "speed_multiplier": 1,
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Success"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "execute_luau",
+      "arguments": {
+        "datamodel_type": "Client",
+        "code": "local p=game.Players.LocalPlayer local r=p.Character.HumanoidRootPart return {Position=tostring(r.Position),Health=p.Character.Humanoid.Health,ExtractionPrompt=workspace.OddvaultWorld.DimensionMap.TourPoints.Extraction:FindFirstChildOfClass(\"ProximityPrompt\")~=nil}",
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"ExtractionPrompt\":true,\"Health\":100,\"Position\":\"287.99993896484375, 2.9980251789093018, 861.2020263671875\"}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "user_keyboard_input",
+      "arguments": {
+        "datamodel_type": "Client",
+        "actions": [
+          {
+            "action": "keyDown",
+            "key_code": "E"
+          },
+          {
+            "action": "wait",
+            "wait_time_ms": 650
+          },
+          {
+            "action": "keyUp",
+            "key_code": "E"
+          },
+          {
+            "action": "wait",
+            "wait_time_ms": 1500
+          }
+        ],
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Success"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "tool": "execute_luau",
+      "arguments": {
+        "datamodel_type": "Client",
+        "code": "local p=game.Players.LocalPlayer local r=p.Character.HumanoidRootPart return {Position=tostring(r.Position),Health=p.Character.Humanoid.Health,WalkSpeed=p.Character.Humanoid.WalkSpeed}",
+        "studio_id": "c11c7fcb-a6da-4128-bc39-c9a005318dc7"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"WalkSpeed\":16,\"Health\":100,\"Position\":\"287.99993896484375, 2.9980251789093018, 861.2020263671875\"}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  ],
+  "successfulNavigationSteps": 15,
+  "promptKeyboardActivationVerified": false,
+  "promptActivationNote": "Native keyboard input did not activate the prompt while viewport focus was Server. Actual Client ProximityPrompt InputHoldBegin/InputHoldEnd then invoked the server handler and returned to HomeArrival.",
+  "promptActivation": {
+    "isError": false,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"Position\":\"7.275957614183426e-12, 2.9980251789093018, -60\"}"
+      }
+    ]
+  },
+  "initialNavigationFailureNote": "The test character was already in a procedural Rift. Studio-only debug cleanup returned it to the hub before the successful walk; no map route geometry was changed in response.",
+  "initialNavigationContext": {
+    "isError": false,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"Position\":\"1490.19140625, 2.99609375, 254.3828125\",\"PlaceId\":0,\"RiftId\":\"3d4ab04e-ac97-4449-8b7f-84d458e6030a\",\"World\":true}"
+      }
+    ]
+  },
+  "testCleanup": {
+    "isError": false,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"Position\":\"0, 4, -60\",\"Cleanup\":{\"CellsInUse\":0}}"
+      }
+    ]
+  },
+  "mainInstallation": {
+    "isError": false,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"InstallerComplete\":true,\"OriginalObjects\":2,\"PlaceId\":87112781126474,\"MapParts\":1028,\"OriginalSceneBackup\":\"ServerStorage.OddvaultBackups.SceneBeforeDimensionMap_06b0a1a0-9f7f-40ba-9934-2eed45e4de6a\"}"
+      }
+    ]
+  },
+  "mainFinalInstallation": {
+    "isError": false,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"MapPresent\":true,\"Archives\":2,\"PreviousAtmosphereDensity\":0.30000001192092898,\"PlaceId\":87112781126474}"
+      }
+    ]
+  },
+  "geometryExport": {
+    "Folder": "OddvaultMapExport_9e8266aa-4232-4c84-a2b0-e528b3449065",
+    "Chunks": 36,
+    "EngineRoundTrip": true,
+    "WorldDescendants": 1653,
+    "Bytes": 52993,
+    "File": "assets/OddvaultDimensionMap.rbxm",
+    "sha256": "b1338d5028a2d47a88fc9d7d8ba7bafd0060da05ad161f77e1b235794fd1eacf",
+    "Kind": "Roblox engine-generated geometry model; runtime code is in the Command Bar installer"
+  },
+  "placeBuild": "Rojo 7.7.1 map.project.json, using the actual engine-exported geometry and current 13 Lua source scripts.",
+  "placeOfflineVerification": "Lune deserialized the final .rbxl: nine regions present; all thirteen script Source values exactly match src/world.",
+  "fullPlaceOpenedInStudio": false,
+  "modelEngineRoundTrip": true,
+  "localExportNote": "Studio Download a Copy dialog stalled and the native computer-use pipe closed. Recovered through documented SerializationService using official Studio MCP; exported .rbxm and built .rbxl. No cloud Save/Publish action was performed.",
+  "publishedToRoblox": false,
+  "mainFinalView": {
+    "isError": false,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"MapVisible\":true,\"Mode\":\"Edit\"}"
+      }
+    ]
+  },
+  "artifacts": [
+    {
+      "file": "assets/OddvaultDimensionMap.rbxm",
+      "bytes": 52993,
+      "sha256": "b1338d5028a2d47a88fc9d7d8ba7bafd0060da05ad161f77e1b235794fd1eacf"
+    },
+    {
+      "file": "assets/OddvaultDimensionMap.rbxl",
+      "bytes": 94837,
+      "sha256": "ac81ccdadb9ba7725463b709ef305959253d85f00b2319c8782c06f7cc8765d6"
+    },
+    {
+      "file": "dist/OddvaultCommandBar.lua",
+      "bytes": 96872,
+      "sha256": "17d143026a0f1eb41922d06bd32cb2c4e7683711f73e2fcb8019ac1f182d0791"
+    },
+    {
+      "file": "docs/validation/nexus-map-overview.png",
+      "bytes": 227360,
+      "sha256": "d63b1cccd5ace6113bf465100248409d5c9ec7f846f4c8ea326a25859f9f147e"
+    },
+    {
+      "file": "docs/validation/nexus-map-ground.png",
+      "bytes": 265759,
+      "sha256": "8cc74399aa63651ee7f81004ac630d0d92d8404f23abae763a27ea50f9c120d9"
+    },
+    {
+      "file": "docs/validation/nexus-map-museum.png",
+      "bytes": 222893,
+      "sha256": "f124b44906090d396d65259acc19d0b9a8bc3d712fd2108a9519689286115ce6"
+    }
+  ],
+  "remainingGates": [
+    "Physical carrying",
+    "Dimension-specific physics",
+    "Timed collapse and machinery",
+    "Saved collection/economy",
+    "Multi-client acceptance",
+    "Mobile/network performance",
+    "Roblox-aware complete type analysis",
+    "Full .rbxl reopened via Studio UI"
+  ]
+}

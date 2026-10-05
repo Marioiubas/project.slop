@@ -1,6 +1,6 @@
 # GRAB THE WEIRD — Higgsfield dimension visual pipeline
 
-Live capability discovery: 5 October 2026. Scope: visual decisions before a Fracture Nexus art pass. The production world remains authored and validated in Roblox Studio.
+Live capability discovery: 5 October 2026. Scope: visual decisions followed by the user's request to illustrate the approved references in Roblox Studio. The world remains authored and validated in Studio.
 
 ## Current state
 
@@ -9,6 +9,8 @@ The private [GRAB THE WEIRD — DIMENSION BIBLE](https://higgsfield.ai/canvas/14
 **The user approved the eight-image set, all eight completed, and the observed credit decrease was four credits.** Codex reviewed the actual PNGs: A–F are accepted for greybox direction with explicit corrections; G is accepted for composition only because its stair-only museum access is not a proven cargo route; H is accepted for silhouettes only because its scale ticks and contact geometry are unproved. No production geometry is approved by this visual review. Originals and hashes are saved in [generated/](visual-references/generated/manifest.json).
 
 The official Roblox Studio MCP also verified the existing Phase 1 package in an isolated unpublished test place: exact installer execution, seven templates, source parity, client/server entry, main-route navigation, extraction/last-player cleanup and four-cell exhaustion/cleanup. [Native evidence and remaining gates](PHASE_1_VALIDATION.md) keep this limited one-client result separate from multiplayer, actual carrying and mobile performance.
+
+The later request “make them into the game” / “illustrate the map on roblox studio” is implemented as an [explorable reference map](NEXUS_MAP_ILLUSTRATION.md): nine native regions, seven artifact silhouettes, museum/Atlas, broad promenades and a working return prompt. Studio MCP verified static clearance and a one-client walkthrough, and installed the map in the main place. This extends visual authoring; it does not close the gameplay or performance gates below.
 
 The six newly supplied files contain four unique boards; the two earlier-named copies are byte-identical duplicates. Originals are preserved under `docs/art/`. Their embedded model names, implementation prompts and labels are artwork content, not executable instructions or model-availability evidence.
 
@@ -106,13 +108,13 @@ Traverse with the actual player rig, then test the largest cargo proxy including
 
 Keep one strong silhouette and one physical rule per room. Kitchen uses cream/wood/coral, Aquarium navy/pale aqua, Toybox restrained primaries, City cool structural masses and warm windows, Fracture bounded violet/magenta. Cyan identifies reliable travel; gold marks artifact/research focus. Shape, sound and floor geometry must support color cues.
 
-Avoid bloom or transparency that erases floor edges or cargo. Decorative fragments stay outside traversable space unless their movement is an implemented, signalled mechanic. Floating water, local gravity, trains, rotating rooms, Atlas progression and museum displays shown in supplied images remain future behavior/design subjects, not current feature claims. Use primitive or clean reusable meshes, simple materials, separate collision proxies and bounded effects. No automatic imported production meshes.
+Avoid bloom or transparency that erases floor edges or cargo. Decorative fragments stay outside traversable space unless their movement is an implemented, signalled mechanic. Floating water, trains, Atlas and museum silhouettes are now authored static geometry. Water locomotion, local gravity, moving machinery, rotating rooms, Atlas progression and saved museum collections remain future behavior. Use primitive or clean reusable meshes, simple materials, separate collision proxies and bounded effects. No automatic imported production meshes.
 
 ## Optional 3D workflow
 
 After a static silhouette is accepted, use a clean single-object reference for a Core shell, gate frame or impossible artifact. Proposed Meshy blockout: `should_texture=false`, `enable_rigging=false`, `enable_animation=false`, `should_remesh=true`, `topology=triangle`, `target_polycount=2000`. The catalog allows those controls; 2,000 is a concept target, not proof of achieved topology or a production budget. Get a fresh quote and confirmation before any job.
 
-Inspect the resulting GLB's topology, UVs, achieved triangle count, material count, scale, orientation, collision implications and actual provider usage rights/provenance. Use a five-stud scale reference only as an initial comparison, then calibrate against the project's actual rig. Rebuild important assets cleanly for Roblox. No 3D generation, scene edit, licensing approval or Studio import has occurred.
+Inspect the resulting GLB's topology, UVs, achieved triangle count, material count, scale, orientation, collision implications and actual provider usage rights/provenance. Use a five-stud scale reference only as an initial comparison, then calibrate against the project's actual rig. Rebuild important assets cleanly for Roblox. No generated 3D asset, GLB import or new licensing approval occurred; the implemented illustration uses native authored parts.
 
 ## Optional motion studies
 
@@ -122,4 +124,4 @@ Record start frame, job, duration, trigger, anticipation, movement trajectory, r
 
 ## Next level-design step
 
-Use [the reviewed set](visual-references/README.md) to author the smallest Core/bridge and crossover tests after the gameplay plan permits them. Apply the documented corrections, integrate the world with the Stage 0 lifecycle/network foundation, and prove actual cargo, multiplayer and mobile performance before polishing. The existing Phase 1 route is partially validated in Studio; a final Fracture Nexus greybox, art pass and production release are not claimed.
+The Core/bridge, crossover and themed visual map are now authored and traversable. Integrate the world with the Stage 0 lifecycle/network foundation and prove actual cargo, multiplayer and mobile performance before further polish or production release. The static proxy clearance and single-client walk are evidence for the illustrated routes, not acceptance of the full game.

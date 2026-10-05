@@ -125,6 +125,7 @@ function Mock.new()
 	local methods, meta, all = {}, {}, {}
 	local inheritance = {
 		Part = { "BasePart" },
+		WedgePart = { "BasePart" },
 		SpawnLocation = { "BasePart" },
 		Script = { "BaseScript" },
 		LocalScript = { "BaseScript" },
@@ -307,6 +308,7 @@ function Mock.new()
 		"RunService",
 		"CollectionService",
 		"Players",
+		"Lighting",
 	}) do
 		services[name] = new(name)
 	end

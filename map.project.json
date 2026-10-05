@@ -1,0 +1,40 @@
+{
+  "name": "OddvaultDimensionMap",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "OddvaultShared": { "$path": "src/world/shared" }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "OddvaultServer": { "$path": "src/world/server" }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "OddvaultClient": { "$path": "src/world/client/WorldClient.client.lua" }
+      }
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "ClockTime": 14,
+        "Brightness": 2.5,
+        "Ambient": [0.352941, 0.384314, 0.490196],
+        "OutdoorAmbient": [0.568627, 0.611765, 0.701961],
+        "GlobalShadows": true
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "StreamingEnabled": true,
+        "StreamingMinRadius": 64,
+        "StreamingTargetRadius": 384
+      },
+      "OddvaultWorld": { "$path": "assets/OddvaultDimensionMap.rbxm" }
+    }
+  }
+}
