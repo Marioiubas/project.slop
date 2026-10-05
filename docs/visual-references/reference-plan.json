@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-05",
+  "status": "awaiting_paid_generation_confirmation",
+  "generated_outputs": 0,
+  "approved_generated_concepts": 0,
+  "canvas": {
+    "url": "https://higgsfield.ai/canvas/14cf29ef-6f18-435f-bf10-b309b078c5ea",
+    "room_id": "14cf29ef-6f18-435f-bf10-b309b078c5ea",
+    "workspace_id": "0763b32c-3dee-4f94-9c29-1782578cbc23"
+  },
+  "proposal": {
+    "model": "gpt_image_2_5",
+    "name": "GPT Image 2.5",
+    "variant": "flare",
+    "quality": "medium",
+    "resolution": "1k",
+    "output_count": 8,
+    "estimated_credits_per_output": 0.5,
+    "estimated_total_credits": 4,
+    "canvas_preflight": "preview: 8 charged generation nodes, no jobs started",
+    "generation_authorized": false
+  },
+  "references": {
+    "thumbnail_media_id": "b966191a-0aab-4ea3-9294-79b30af85f2f",
+    "icon_media_id": "658a91ed-a52c-4ff3-b1fc-b3f852496e87",
+    "world_boards": [
+      {
+        "file": "../art/world-board-1.png",
+        "media_id": "48bf51d6-ff71-4dac-8aab-2cbb97d63590"
+      },
+      {
+        "file": "../art/world-board-2.png",
+        "media_id": "3ddd29dc-b6fe-499d-8d59-b1e5a67880ae"
+      },
+      {
+        "file": "../art/world-board-3.png",
+        "media_id": "8581698b-de58-440d-93e3-c4e38513fac5"
+      },
+      {
+        "file": "../art/world-board-4.png",
+        "media_id": "cdebaa42-8df3-4b30-9a48-26f8e1403ee3"
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "key": "A",
+      "title": "Fracture Nexus — Hero Overview",
+      "note_file": "fracture-nexus-overview.md",
+      "design_question": "What does the entire game mean by dimensions?",
+      "generation_node_id": "a0fd21cc-bc48-498d-b497-94b17263c875",
+      "prompt_node_id": "17fb5764-a633-4206-92f4-d90e5294baae",
+      "reference_file": "../art/world-board-2.png",
+      "status": "pending_generation_and_review",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "variant": "flare",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "16:9",
+        "background": "opaque"
+      },
+      "prompt": "Create a Roblox-native environment concept for GRAB THE WEIRD. It must look buildable inside Roblox Studio: blocky Roblox-scale figures, chunky simplified geometry, toy-like polished materials, clean silhouettes, readable colors, clear floors and restrained lighting. Use the supplied reference only for proportion, palette, readable silhouettes and cyan Rift language; do not reproduce their characters, branding text or exact composition. No photorealism, Unreal Engine realism, Pixar or Fortnite anatomy, generic fantasy filigree, surface micro-detail, excessive bloom, arbitrary neon or purposeless floating debris. Every impossible feature must explain a gameplay rule. No captions, UI, logos or watermarks. Show actual level-design logic rather than atmosphere alone. Violet and magenta are confined to dimensional fracture seams; cyan remains the clearest stable-travel cue. Compose one coherent environment view, not a collage or promotional board; only the artifact study uses an object sheet.\n\nPRIMARY DESIGN SUBJECT: A fractured research crossing around one central Dimensional Core. Giant's Kitchen counters form the warm left cluster; a broken Moon Aquarium dome forms the cool right cluster; chunky Toybox rails form the upper cluster; an upside-down city is a distant silhouette. Each cluster connects to the Core by a visible broad bridge.\nGAMEPLAY READ: Three blocky players carry one large golden refrigerator together toward a visible cyan return gate. Show an optional side loop without hiding the safe route.\nDIMENSIONAL RULE: Each fragment retains its own local gravity, but all usable bridge decks share a stable orientation. Orbiting architecture is a distant landmark outside the carry path.\nLANDMARK: One faceted split Core supported above the central platform, visible from every approach.\nTRAVERSAL: Clear ground-level cargo route, broad straight bridges, generous turning pads, a short ramp and portal windows framing possible future dimensions.\nPLAYER SCALE: Recognizable blocky Roblox figures, consistent limb proportions and solid foot contact; no exact character cloning.\nARTIFACT: One chunky golden refrigerator with a single cyan eye; legible against the neutral floor.\nCOLOR LANGUAGE: Ink-blue Core framing; cream/wood/coral Kitchen; deep navy/pale aqua Aquarium; muted primary Toybox colors; gold artifacts and cyan travel only.\nCAMERA: Wide elevated 24mm view that exposes all bridges, arrival and return route; keep the distant city subordinate.",
+      "image_url": null,
+      "job_id": null,
+      "review": null,
+      "implementation_status": "not_implemented"
+    },
+    {
+      "key": "B",
+      "title": "Kitchen × Moon Aquarium Transition",
+      "note_file": "kitchen-aquarium-transition.md",
+      "design_question": "How do two dimensions physically bleed into each other?",
+      "generation_node_id": "94e6e68c-f7d7-458a-89de-1f36bcdc433c",
+      "prompt_node_id": "f420464e-52c2-411d-9280-d20e4222279f",
+      "reference_file": "../art/world-board-2.png",
+      "status": "pending_generation_and_review",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "variant": "flare",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "16:9",
+        "background": "opaque"
+      },
+      "prompt": "Create a Roblox-native environment concept for GRAB THE WEIRD. It must look buildable inside Roblox Studio: blocky Roblox-scale figures, chunky simplified geometry, toy-like polished materials, clean silhouettes, readable colors, clear floors and restrained lighting. Use the supplied reference only for proportion, palette, readable silhouettes and cyan Rift language; do not reproduce their characters, branding text or exact composition. No photorealism, Unreal Engine realism, Pixar or Fortnite anatomy, generic fantasy filigree, surface micro-detail, excessive bloom, arbitrary neon or purposeless floating debris. Every impossible feature must explain a gameplay rule. No captions, UI, logos or watermarks. Show actual level-design logic rather than atmosphere alone. Violet and magenta are confined to dimensional fracture seams; cyan remains the clearest stable-travel cue. Compose one coherent environment view, not a collage or promotional board; only the artifact study uses an object sheet.\n\nPRIMARY DESIGN SUBJECT: An oversized kitchen counter enters a cracked orbital Aquarium wall. A single spherical volume of water hangs across the ceiling; the top half of a chunky refrigerator intersects the water while its base stays on the floor. Stars are visible through one bounded wall opening.\nGAMEPLAY READ: Three blocky players steer a large Moon-in-a-Jar along a dry lower route. One player investigates a raised side catwalk.\nDIMENSIONAL RULE: Suspended water changes gravity for loose utensils above the catwalk; the dry cargo route stays stable. A utensil's motion follows this one visible volume rather than random levitation.\nLANDMARK: Half-submerged refrigerator and one large water sphere share the crossover seam.\nTRAVERSAL: A broad dry route curves around the sphere's support, with turning space, a gentle ramp and a raised optional catwalk. Both exits are visible.\nPLAYER SCALE: Recognizable blocky Roblox figures, consistent limb proportions and solid foot contact; no exact character cloning.\nARTIFACT: A chunky transparent jar with a solid small moon and a simple gold handle.\nCOLOR LANGUAGE: Cream/coral kitchen surfaces transition to navy/pale aqua through one clean seam; cyan remains reserved for gates.\nCAMERA: Wide 24mm corner view exposing entry, both route heights and the exit; show the water boundary clearly.",
+      "image_url": null,
+      "job_id": null,
+      "review": null,
+      "implementation_status": "not_implemented"
+    },
+    {
+      "key": "C",
+      "title": "Fracture Core Chamber",
+      "note_file": "fracture-core.md",
+      "design_question": "What object does the player remember after leaving?",
+      "generation_node_id": "7666f1a3-1c0a-43d3-ada1-2b4b75fc2750",
+      "prompt_node_id": "2de920ab-3b93-4334-8195-8ffd8aad10e6",
+      "reference_file": "../art/world-board-3.png",
+      "status": "pending_generation_and_review",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "variant": "flare",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "16:9",
+        "background": "opaque"
+      },
+      "prompt": "Create a Roblox-native environment concept for GRAB THE WEIRD. It must look buildable inside Roblox Studio: blocky Roblox-scale figures, chunky simplified geometry, toy-like polished materials, clean silhouettes, readable colors, clear floors and restrained lighting. Use the supplied reference only for proportion, palette, readable silhouettes and cyan Rift language; do not reproduce their characters, branding text or exact composition. No photorealism, Unreal Engine realism, Pixar or Fortnite anatomy, generic fantasy filigree, surface micro-detail, excessive bloom, arbitrary neon or purposeless floating debris. Every impossible feature must explain a gameplay rule. No captions, UI, logos or watermarks. Show actual level-design logic rather than atmosphere alone. Violet and magenta are confined to dimensional fracture seams; cyan remains the clearest stable-travel cue. Compose one coherent environment view, not a collage or promotional board; only the artifact study uses an object sheet.\n\nPRIMARY DESIGN SUBJECT: An enormous faceted dimensional reactor split into three readable shell pieces. Architectural fragments orbit inside a contained central shaft. Two levels of chunky catwalks frame the reactor.\nGAMEPLAY READ: Four blocky players regroup on a broad lower landing, with one carrying a heavy artifact. An upper route shows a tempting pickup.\nDIMENSIONAL RULE: The Core's orbit is confined to the shaft; the lower return deck stays stable. Broken upper platforms explain the optional hazard.\nLANDMARK: A three-piece fractured reactor with a visible solid centre and asymmetric gold clamps.\nTRAVERSAL: An uninterrupted lower cargo loop, two wide turning landings and a side ramp to the optional upper level; do not place a jump on the mandatory carry route.\nPLAYER SCALE: Recognizable blocky Roblox figures, consistent limb proportions and solid foot contact; no exact character cloning.\nARTIFACT: A large clockwork jellyfish on the optional landing with a bell-shaped block shell and a few simple rods.\nCOLOR LANGUAGE: Ink/navy structural frame, warm cream walkways, restrained gold clamps, one cyan return portal.\nCAMERA: Wide 20–24mm view from a lower corner showing vertical scale, stable loop and both landings.",
+      "image_url": null,
+      "job_id": null,
+      "review": null,
+      "implementation_status": "not_implemented"
+    },
+    {
+      "key": "D",
+      "title": "Deep Fracture",
+      "note_file": "deep-fracture.md",
+      "design_question": "Why would a player knowingly risk going deeper?",
+      "generation_node_id": "b0c77c66-5546-4b00-906f-e919e0fd25be",
+      "prompt_node_id": "3efa195d-9a82-4469-85f0-df707b2032d0",
+      "reference_file": "../art/world-board-4.png",
+      "status": "pending_generation_and_review",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "variant": "flare",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "16:9",
+        "background": "opaque"
+      },
+      "prompt": "Create a Roblox-native environment concept for GRAB THE WEIRD. It must look buildable inside Roblox Studio: blocky Roblox-scale figures, chunky simplified geometry, toy-like polished materials, clean silhouettes, readable colors, clear floors and restrained lighting. Use the supplied reference only for proportion, palette, readable silhouettes and cyan Rift language; do not reproduce their characters, branding text or exact composition. No photorealism, Unreal Engine realism, Pixar or Fortnite anatomy, generic fantasy filigree, surface micro-detail, excessive bloom, arbitrary neon or purposeless floating debris. Every impossible feature must explain a gameplay rule. No captions, UI, logos or watermarks. Show actual level-design logic rather than atmosphere alone. Violet and magenta are confined to dimensional fracture seams; cyan remains the clearest stable-travel cue. Compose one coherent environment view, not a collage or promotional board; only the artifact study uses an object sheet.\n\nPRIMARY DESIGN SUBJECT: A dark, almost empty dimensional shaft with one clear out-and-back bridge to a rare artifact. Two distant portal windows reveal unrelated realities but remain background silhouettes.\nGAMEPLAY READ: Two blocky players pause at a safe landing and judge the one dangerous route. A third has turned back toward a visible return doorway.\nDIMENSIONAL RULE: A single moving gap interrupts the optional bridge on a readable cycle; the entry landing remains stable.\nLANDMARK: A rare Small Sun suspended above a simple pedestal at the far landing.\nTRAVERSAL: One broad optional route with a clearly visible hazard gap, safe waiting pads on either side and a return path in frame.\nPLAYER SCALE: Recognizable blocky Roblox figures, consistent limb proportions and solid foot contact; no exact character cloning.\nARTIFACT: A solid faceted Small Sun in a compact cage; bright enough to attract the eye without bloom filling the scene.\nCOLOR LANGUAGE: Matte navy/black void, pale grey bridge edges, a controlled amber artifact focal point, cyan only at the return door.\nCAMERA: Wide 28mm view behind the deciding players, showing the entire risk and destination without hiding the way back.",
+      "image_url": null,
+      "job_id": null,
+      "review": null,
+      "implementation_status": "not_implemented"
+    },
+    {
+      "key": "E",
+      "title": "Total Fracture Escape",
+      "note_file": "total-fracture-escape.md",
+      "design_question": "What does the strongest OH-NO moment look like?",
+      "generation_node_id": "57ab67e8-2098-45df-8bc5-cfc3066d78ad",
+      "prompt_node_id": "1d6bfb0d-c2bd-463e-8018-da146dfa5ebf",
+      "reference_file": "../art/world-board-1.png",
+      "status": "pending_generation_and_review",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "variant": "flare",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "16:9",
+        "background": "opaque"
+      },
+      "prompt": "Create a Roblox-native environment concept for GRAB THE WEIRD. It must look buildable inside Roblox Studio: blocky Roblox-scale figures, chunky simplified geometry, toy-like polished materials, clean silhouettes, readable colors, clear floors and restrained lighting. Use the supplied reference only for proportion, palette, readable silhouettes and cyan Rift language; do not reproduce their characters, branding text or exact composition. No photorealism, Unreal Engine realism, Pixar or Fortnite anatomy, generic fantasy filigree, surface micro-detail, excessive bloom, arbitrary neon or purposeless floating debris. Every impossible feature must explain a gameplay rule. No captions, UI, logos or watermarks. Show actual level-design logic rather than atmosphere alone. Violet and magenta are confined to dimensional fracture seams; cyan remains the clearest stable-travel cue. Compose one coherent environment view, not a collage or promotional board; only the artifact study uses an object sheet.\n\nPRIMARY DESIGN SUBJECT: A Kitchen/Aquarium crossover collapses behind three blocky players carrying one bulky artifact. One emergency extraction gate is ahead, framed by solid dark supports. A bounded water anomaly moves beside the failing secondary route.\nGAMEPLAY READ: Players retreat together along a broad visible path to the emergency gate. One losing route is clearly behind them, with another continuous route still available.\nDIMENSIONAL RULE: Collapse progresses from the rear toward the gate; an alternate return deck stays intact long enough for cargo. Water drift is side pressure, not random full-screen chaos.\nLANDMARK: The emergency cyan gate, visible through the entire foreground route.\nTRAVERSAL: Continuous cargo-width floor and turning landing, one collapsing branch in the background, a readable surviving bypass. Show the end of the path.\nPLAYER SCALE: Recognizable blocky Roblox figures, consistent limb proportions and solid foot contact; no exact character cloning.\nARTIFACT: One oversized gold refrigerator held by the group; do not obscure their feet or the gate.\nCOLOR LANGUAGE: Warm cream/wood foreground; dark navy collapsing background; local amber warnings; cyan return gate remains the clearest focal point.\nCAMERA: Wide 24mm side-rear view exposing feet, cargo, bypass and gate; frozen final 20–40-second design keyframe.",
+      "image_url": null,
+      "job_id": null,
+      "review": null,
+      "implementation_status": "not_implemented"
+    },
+    {
+      "key": "F",
+      "title": "Rare Room — Between Dimensions",
+      "note_file": "room-between-dimensions.md",
+      "design_question": "How does rarity become memorable through contrast?",
+      "generation_node_id": "a77069fa-5bc0-4455-a68a-45263307cbb4",
+      "prompt_node_id": "5abe1e93-e385-4ea8-a729-8fe27133d601",
+      "reference_file": "../art/world-board-3.png",
+      "status": "pending_generation_and_review",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "variant": "flare",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "16:9",
+        "background": "opaque"
+      },
+      "prompt": "Create a Roblox-native environment concept for GRAB THE WEIRD. It must look buildable inside Roblox Studio: blocky Roblox-scale figures, chunky simplified geometry, toy-like polished materials, clean silhouettes, readable colors, clear floors and restrained lighting. Use the supplied reference only for proportion, palette, readable silhouettes and cyan Rift language; do not reproduce their characters, branding text or exact composition. No photorealism, Unreal Engine realism, Pixar or Fortnite anatomy, generic fantasy filigree, surface micro-detail, excessive bloom, arbitrary neon or purposeless floating debris. Every impossible feature must explain a gameplay rule. No captions, UI, logos or watermarks. Show actual level-design logic rather than atmosphere alone. Violet and magenta are confined to dimensional fracture seams; cyan remains the clearest stable-travel cue. Compose one coherent environment view, not a collage or promotional board; only the artifact study uses an object sheet.\n\nPRIMARY DESIGN SUBJECT: An almost empty impossible ivory/black void with a single solid platform, one strange artifact and three distant framed doorways into unrelated dimensions.\nGAMEPLAY READ: Two blocky players stand still near a quiet pedestal; a third waits by the obvious return doorway.\nDIMENSIONAL RULE: Background doorways reveal remote realities but do not imply walkable floating stepping stones. The one real floor remains contiguous.\nLANDMARK: A lone Runaway Door artifact standing at a slight impossible angle on a quiet pedestal.\nTRAVERSAL: A broad uninterrupted floor, a wide turn around the pedestal and one usable return doorway connected to the same floor.\nPLAYER SCALE: Recognizable blocky Roblox figures, consistent limb proportions and solid foot contact; no exact character cloning.\nARTIFACT: One blocky freestanding door with two small wheel-like feet and a simple handle; strong silhouette.\nCOLOR LANGUAGE: Ivory floor, near-black background, restrained ink frames and a single gold artifact detail; cyan only at the active return.\nCAMERA: Wide 28mm composition with deliberate negative space, artifact isolated and both player scale and return route readable.",
+      "image_url": null,
+      "job_id": null,
+      "review": null,
+      "implementation_status": "not_implemented"
+    },
+    {
+      "key": "G",
+      "title": "Portal Hub / Dimensional Atlas",
+      "note_file": "portal-hub-atlas.md",
+      "design_question": "What does coming home feel like?",
+      "generation_node_id": "6f07eeaa-2321-4c28-b6d8-86028189286b",
+      "prompt_node_id": "f45113c8-22bc-4331-a93f-8c555e2bedef",
+      "reference_file": "../art/world-board-1.png",
+      "status": "pending_generation_and_review",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "variant": "flare",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "16:9",
+        "background": "opaque"
+      },
+      "prompt": "Create a Roblox-native environment concept for GRAB THE WEIRD. It must look buildable inside Roblox Studio: blocky Roblox-scale figures, chunky simplified geometry, toy-like polished materials, clean silhouettes, readable colors, clear floors and restrained lighting. Use the supplied reference only for proportion, palette, readable silhouettes and cyan Rift language; do not reproduce their characters, branding text or exact composition. No photorealism, Unreal Engine realism, Pixar or Fortnite anatomy, generic fantasy filigree, surface micro-detail, excessive bloom, arbitrary neon or purposeless floating debris. Every impossible feature must explain a gameplay rule. No captions, UI, logos or watermarks. Show actual level-design logic rather than atmosphere alone. Violet and magenta are confined to dimensional fracture seams; cyan remains the clearest stable-travel cue. Compose one coherent environment view, not a collage or promotional board; only the artifact study uses an object sheet.\n\nPRIMARY DESIGN SUBJECT: A stable research plaza with one huge primary Rift gate, a simple physical Dimensional Atlas showing three discovered nodes, and a visible museum/research wing.\nGAMEPLAY READ: Three blocky players return with one large artifact and move toward a visible display bay. Another player studies the Atlas from a clear side area.\nDIMENSIONAL RULE: Home stabilises impossible artifacts inside bounded display spaces. The Atlas shows discoveries without changing the main return floor.\nLANDMARK: One primary cyan gate in a dark chunky frame, paired with a restrained orbit diagram.\nTRAVERSAL: The spawn faces the portal. A clear broad route leads from arrival to the museum; Atlas viewers cannot block the entry/join approach.\nPLAYER SCALE: Recognizable blocky Roblox figures, consistent limb proportions and solid foot contact; no exact character cloning.\nARTIFACT: A recovered Moon-in-a-Jar held by two players near a simple plinth.\nCOLOR LANGUAGE: Warm cream and wood, ink research structures, gold progress accents and cyan travel. Calm directional lighting contrasts with fractured rooms.\nCAMERA: Wide 24mm view from the spawn approach, showing return gate, museum destination and Atlas side station.",
+      "image_url": null,
+      "job_id": null,
+      "review": null,
+      "implementation_status": "not_implemented"
+    },
+    {
+      "key": "H",
+      "title": "Hybrid Artifact Sheet",
+      "note_file": "hybrid-artifact-sheet.md",
+      "design_question": "How do artifacts show their dimensional history?",
+      "generation_node_id": "594b9e43-f25d-4108-9fe1-2601103108e6",
+      "prompt_node_id": "94c2c922-edc4-442e-8e7b-0a6f56323812",
+      "reference_file": "../art/icon-reference.png",
+      "status": "pending_generation_and_review",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "variant": "flare",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "4:3",
+        "background": "opaque"
+      },
+      "prompt": "Create a Roblox-native environment concept for GRAB THE WEIRD. It must look buildable inside Roblox Studio: blocky Roblox-scale figures, chunky simplified geometry, toy-like polished materials, clean silhouettes, readable colors, clear floors and restrained lighting. Use the supplied reference only for proportion, palette, readable silhouettes and cyan Rift language; do not reproduce their characters, branding text or exact composition. No photorealism, Unreal Engine realism, Pixar or Fortnite anatomy, generic fantasy filigree, surface micro-detail, excessive bloom, arbitrary neon or purposeless floating debris. Every impossible feature must explain a gameplay rule. No captions, UI, logos or watermarks. Show actual level-design logic rather than atmosphere alone. Violet and magenta are confined to dimensional fracture seams; cyan remains the clearest stable-travel cue. Compose one coherent environment view, not a collage or promotional board; only the artifact study uses an object sheet.\n\nPRIMARY DESIGN SUBJECT: A clean seven-object concept sheet: Clockwork Jellyfish, Moon in a Jar, Bottomless Frozen Cup, Orbiting Golden Fridge, Runaway Door, Small Sun, Reverse Fishbowl. Each is a chunky Roblox-buildable assembly with no tiny filigree.\nGAMEPLAY READ: Use three small blocky Roblox figures as a shared scale key along the bottom, without making this a character poster. Objects must look graspable or cooperative to carry.\nDIMENSIONAL RULE: Each object's silhouette implies one behavior: jellyfish pulses, jar contains a moon, cup has impossible depth, fridge has a bounded orbit, door moves away, sun glows locally, fishbowl reverses inside and outside.\nLANDMARK: Seven distinctly different silhouette families with three to five large visible pieces each.\nTRAVERSAL: Use front three-quarter object views with clear bounding boxes and uncluttered negative space; show no environment or cosmetic levitation unrelated to the behavior.\nPLAYER SCALE: Recognizable blocky Roblox figures, consistent limb proportions and solid foot contact; no exact character cloning.\nARTIFACT: All seven named objects; do not add duplicates or an eighth item.\nCOLOR LANGUAGE: Limited cream/ink/steel bases; restrained dimension color; gold fridge and sun; aqua only for water-like contents and cyan eye.\nCAMERA: Orthographic-like wide artifact sheet, 4:3 aspect ratio; no perspective trick that hides contact points.",
+      "image_url": null,
+      "job_id": null,
+      "review": null,
+      "implementation_status": "not_implemented"
+    }
+  ]
+}

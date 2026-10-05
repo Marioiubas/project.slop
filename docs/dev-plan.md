@@ -9,6 +9,13 @@ This file is *how and in what order*. Process rules live in [how-to-work.md](how
 
 **World-package work (5 October 2026):** the user separately authorized the supplied world brief's audit + Phase 1 and an offline Command Bar delivery. `stage3/command-bar-world-foundation` implements the allocator, room/socket kit, seeded assembly, route validation and portal return tests under `src/world/`. See `WORLD_ARCHITECTURE_AUDIT.md`, `docs/PHASE_1_VALIDATION.md` and ADR 0007. Stage 0 from PR #2 was merged at 64e49a9 during publication and is preserved here. This package does not advance the artifact/carry/playtest gates below.
 
+**Visual preparation before Nexus polish (user request, 5 October 2026):** see [Higgsfield pipeline](HIGGSFIELD_DIMENSION_VISUAL_PIPELINE.md). This is preproduction direction; it does not advance gameplay gates.
+
+- [x] Inspect live Higgsfield image/reference, Canvas, video and 3D capabilities.
+- [x] Prepare nine-column Dimension Bible, eight focused prompts/translation notes, and preserved supplied reference boards.
+- [ ] Obtain explicit confirmation for the proposed eight-image paid set (estimated four credits); generate and review actual outputs.
+- [ ] Update accepted concepts with provenance and measured Studio traversal/cargo/multiplayer/mobile results before an art pass.
+
 ---
 
 ## Stage 0 — Foundations (before any gameplay)

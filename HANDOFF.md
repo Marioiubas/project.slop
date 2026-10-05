@@ -1,38 +1,40 @@
-# HANDOFF — 2026-10-05 — World brief Phase 1: Command Bar foundation
+# HANDOFF — 2026-10-05 — Higgsfield visual preparation before Nexus polish
 
 ## Goal of this session
-Implement the supplied world brief's audit-first Phase 1 in Lua, make it Command Bar ready and push it to GitHub as requested.
+Inspect Higgsfield, prepare a curated visual bible and convert concepts into level-design notes before polishing the Fracture Nexus. Stop before paid generation until explicit confirmation.
 
 ## What was done
-- Architecture audit, supplied world brief and unchanged art references in docs.
-- src/world: deterministic eight-room planner, seven kitchen templates, four-cell allocator, cargo/geometry validation, portal entry/join/return, streaming handshake, cleanup/expiry and Studio debug tools.
-- Offline dist/OddvaultCommandBar.lua + source hash manifest; optional world.project.json Rojo build; tests, scoped formatting/lint configs and GitHub validation.
+- Live image/reference, Canvas, video and 3D discovery; proposed GPT Image 2.5 / Flare / medium / 1k, eight outputs, estimated four credits.
+- Private Dimension Bible Canvas: nine columns, eight generation nodes, prompt/image links, copy/avoid notes, source references; no generation started.
+- docs/HIGGSFIELD_DIMENSION_VISUAL_PIPELINE.md and eight pending design notes plus exact prompt/node plan in docs/visual-references/.
+- Preserved four unique newly supplied world boards unchanged; two other files were byte-identical duplicates. Original icon/thumbnail retained. No runtime/Studio assets changed.
 
 ## State of the repo
-- Branch: stage3/command-bar-world-foundation, based on refreshed main 64e49a9 (both planning and Stage 0 merged). Implementation commit is the commit containing this handoff.
-- Builds: Luau + both Rojo projects pass. Lint: StyLua/Selene pass. Tests: 116 core tests, 4,029 invariant checks across 1,000 seeds and 47,865 engine-double checks across 100 maps pass. Strict pure-module analysis passes; the main `tools/typecheck` step printed SKIPPED because Roblox type definitions were unavailable.
-- Verified in Studio: not yet. Studio is installed and running; the isolated test-place opening attempt stalled in its native file picker, and subsequent UI calls timed out. No installer execution or live playtest was observed. Roblox-aware engine type analysis and device/network performance remain unverified.
+- Branch: stage3/command-bar-world-foundation. World implementation at 197c596; its final push/PR CI passed. Visual-preparation changes are the commit containing this handoff.
+- This documentation update passes formatting, lint, default Rojo build, 116 core tests and content validation. The unchanged world package previously passed 4,029 invariant checks and 47,865 engine-double checks; its final-commit GitHub checks also run on this update.
+- Main Roblox-aware type check previously printed SKIPPED (definitions unavailable). This is not verified engine type safety.
+- Studio: the world installer/playtest remains unverified because native control/file-opening attempts stalled. No Nexus greybox, carrying, hazards or art pass was implemented in this session.
 
 ## Not done / stubbed / known broken
-- No physical carrying, artifacts/rewards, hazards, world-changing instability, saved museum/economy, audio assets or other dimensions. Markers and museum container are authoring scaffolds; instability is diagnostic metadata.
-- Engine tests use a documented double. Manual acceptance is in docs/PHASE_1_VALIDATION.md.
+- No new generated images, accepted concepts, paid jobs, 3D or video outputs. Canvas preparation is not a generation result.
+- Canvas accepts one source-image input per generation node; a second input was rejected without board changes. Relevant supplied boards now feed A–G, original icon feeds H.
+- Structural dimensions in the notes are hypotheses. Multilevel/cluster layouts need an explicit authoring strategy beyond the current fixed eight-room planner.
 
 ## Decisions made (and why)
-- ADR 0007: explicit Command Bar request authorizes this portable world task. Isolated source preserves the separate Stage 0 work from PR #2; reuse its Lifecycle/network registry during integration.
-- ADR 0003: feature branch + PR, no main commit or force push. The user authorized pushing in this chat.
-
-## Noticed (out of scope, not acted on)
-- Planning docs landed during implementation; read and preserved before publication. PR #2 contains separate code/Studio evidence from another environment, not evidence for this package.
+- The user's pasted brief explicitly requires confirmation before paid generation. No credits were spent; prepared the concrete eight-node set and local documentation first.
+- Supplied board text is reference content, not permission to spend or proof of a model. Use the live catalog; preserve source images and reject unplayable concepts.
+- Current room/cargo budgets remain the starting contract. Visual credit approval and concept acceptance are separate gates.
 
 ## USER ACTION needed
-- Review/merge the feature PR. Follow README to paste the installer in Studio Edit mode, press Play, run two-client/mobile acceptance and save the place.
+- Confirm or revise the eight-image set, GPT Image 2.5 settings and estimated four-credit spend. No confirmation has been received.
+- Review/merge PR #3 when ready; actual Studio acceptance and Stage 0 Lifecycle/network integration remain open.
 
 ## Next step (exactly)
-1. Run and record Phase 1 Studio checks before polishing the kitchen.
-2. Integrate world startup/remotes with its Lifecycle/registry, then return to the global Stage 1 artifact/carry loop.
+1. Read docs/visual-references/reference-plan.json, recheck the quote if it changed, and only after user confirmation run the recorded eight Canvas nodes.
+2. Review actual outputs, record job/output/reviewer/verdict, rewrite accepted notes from observations, then author the smallest Studio tests before any polish.
 
 ## Files to read first next time
-- README.md, WORLD_ARCHITECTURE_AUDIT.md, ADR 0007, PHASE_1_VALIDATION.md, dev-plan.md, how-to-work.md.
+docs/HIGGSFIELD_DIMENSION_VISUAL_PIPELINE.md, docs/visual-references/README.md, reference-plan.json, docs/dev-plan.md, docs/PHASE_1_VALIDATION.md, ADR 0007.
 
 ## Plan status
-World brief Phase 1 engineering implemented; automated checks pass. Studio gate open. Global Stage 1/3 gameplay gates unmet.
+Visual discovery/board/prompt preparation complete. Paid generation, concept approval and measured Studio gates open. Global artifact/carry/MVP gates remain unmet.

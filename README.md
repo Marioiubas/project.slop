@@ -61,6 +61,7 @@ Re-running the installer creates a fresh installation and archives the previous 
 - [Product blueprint](docs/grab-the-weird-blueprint.md)
 - [Supplied world specification](docs/world-design-specification.md)
 - [Art direction and references](docs/art-direction.md)
+- [Higgsfield visual-development pipeline](docs/HIGGSFIELD_DIMENSION_VISUAL_PIPELINE.md) and [eight proposed reference studies](docs/visual-references/README.md)
 - [Validation results and remaining Studio checks](docs/PHASE_1_VALIDATION.md)
 
 The distribution is generated from `src/world/`, which is the source of truth. After editing source files:
