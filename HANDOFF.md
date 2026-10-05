@@ -12,7 +12,7 @@ Implement all of Stage 0 and verify it (build, lint, types, tests, cold clone, S
 - `tools/check` (single gate), `tools/typecheck`, `README.md`; ADRs 0004/0005/0006; `how-to-work.md` + `CLAUDE.md` updated.
 
 ## State of the repo
-- Branch: `stage0/rojo-skeleton` (from `chore/planning-docs`; neither merged to `main`). Implementation commit `27a0c31`; docs/handoff in the commit after it. **Not pushed.**
+- Branch: `stage0/rojo-skeleton` (from `chore/planning-docs`; neither merged to `main`). Implementation commit `27a0c31`; docs/handoff in the commits after it. **Pushed to `origin/stage0/rojo-skeleton`; no PR opened yet.**
 - Builds: yes   Lint: pass (stylua, selene)   Types: pass (luau-lsp, old and new solver)   Tests: pass (116/116)
 - Cold clone: fresh clone + `rokit install` + `lune run tools/check` → all 6 steps pass.
 - Verified in Studio: yes, manually via MCP. The Rojo plugin was connected to `rojo serve` and synced the full tree. Play (server+client) booted with no errors, `Ping` round trip OK (steady ~50 ms), and string/negative/NaN/extra/missing args plus over-burst calls were rejected with throttled server warnings.
@@ -34,8 +34,9 @@ Implement all of Stage 0 and verify it (build, lint, types, tests, cold clone, S
 - `chore/planning-docs` already exists on `origin` (the previous handoff said unpushed).
 
 ## USER ACTION needed
-- Review/merge `chore/planning-docs`, then `stage0/rojo-skeleton`, or tell Claude to push and open PRs (ADR 0003).
-- Optional: install the Luau Language Server extension so `tools/typecheck` doesn't skip on a fresh machine; save/publish the place when you want the synced scripts persisted.
+- Review/merge `chore/planning-docs`, then `stage0/rojo-skeleton` (or tell Claude to open the PR(s); ADR 0003). Compare link: https://github.com/Marioiubas/project.slop/pull/new/stage0/rojo-skeleton
+- Save/publish the Studio place when you want the Rojo-synced scripts persisted there.
+- Luau Language Server 1.70.1 is now installed in VS Code and Cursor (Antigravity still has 1.66.0). It downloads Roblox type definitions the first time it opens a Roblox project; `tools/typecheck` picks them up automatically.
 
 ## Next step (exactly)
 1. New branch `stage1/hub-greybox` (from `main` once merged, else from `stage0/rojo-skeleton`). Run `lune run tools/check` first to confirm a green baseline.
