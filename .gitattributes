@@ -1,0 +1,10 @@
+# Normalise line endings so StyLua (line_endings = "Unix") and diffs agree on every OS.
+* text=auto eol=lf
+
+# Studio-authored binaries (see assets/ and ADR 0004).
+*.rbxm binary
+*.rbxl binary
+*.png binary
+*.jpg binary
+*.ogg binary
+*.mp3 binary

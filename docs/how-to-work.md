@@ -18,7 +18,12 @@ If `HANDOFF.md` and the repo disagree, trust the repo, say so, and fix the hando
 - New design decisions that affect structure → write a short ADR in `docs/adr/NNNN-title.md` (context, decision, consequences).
 
 ## Tooling
-Tools are pinned in `rokit.toml` (rojo, stylua, selene, luau-lsp, wally). If a command isn't found, run `rokit install`; in Git Bash ensure `~/.rokit/bin` is on PATH.
+Tools are pinned in `rokit.toml` (rojo, stylua, selene, luau-lsp, wally, lune). If a command isn't found, run `rokit install`; in Git Bash ensure `~/.rokit/bin` is on PATH. Adding a new tool needs the user's explicit trust (`rokit` refuses otherwise): ask first.
+
+Commands (full table in `README.md`):
+- `lune run tools/check` — the whole gate: format, lint, types, rojo build, unit tests, content validation.
+- `lune run tests/run [filter]` — unit tests (specs in `tests/specs/`, see ADR 0005).
+- `stylua src tests tools` — auto-format before running the gate.
 
 ## Coding standards
 - Luau, `--!strict` on all new modules. Typed public APIs.
@@ -31,15 +36,14 @@ Tools are pinned in `rokit.toml` (rojo, stylua, selene, luau-lsp, wally). If a c
 
 ## Rojo / Studio workflow
 - Code lives in `src/` and syncs via `rojo serve`. Do **not** hand-edit scripts inside Studio; they'd be overwritten.
-- World geometry (hub, rooms, models) is authored in Studio and saved under `assets/`. Record in the handoff exactly which assets were added/changed and how they're wired into the Rojo project.
+- World geometry (hub, rooms, models) is authored in Studio and saved under `assets/` (rules in ADR 0004: no scripts inside assets, find things by tag/attribute). Record in the handoff exactly which assets were added/changed and how they're wired into the Rojo project.
 - Studio MCP tools (when available) may be used to inspect/build/playtest; anything they create that matters must be exported into `assets/` or recreated from code — never leave important state only in an unsaved Studio session.
 - If the user must do something in Studio manually (publish, plugin, settings), list it explicitly as **USER ACTION** in the handoff.
 
 ## Definition of done (all must be true before ending)
-- [ ] `rojo build` succeeds
-- [ ] `stylua --check` and `selene` clean (or failures documented as pre-existing)
-- [ ] Tests pass; new logic has tests where practical
-- [ ] Content validator passes (once it exists)
+- [ ] `lune run tools/check` passes: `rojo build`, `stylua --check`, `selene`, type check, unit tests, content validation (or failures documented as pre-existing)
+- [ ] New logic has tests where practical (pure logic in `tests/specs/`; code that needs Roblox APIs is verified in Studio instead)
+- [ ] Type check wasn't skipped: `tools/typecheck` prints `SKIPPED` when no Roblox type definitions are found; say so in the handoff if it did
 - [ ] Verified in Studio/playtest if the change is behavioural — say plainly if it was **not** verified
 - [ ] `docs/dev-plan.md` checkboxes updated
 - [ ] Changes committed locally on a feature branch `stage<N>/<task>` (ADR 0003): never force-push, never commit to `main`; push/PR only when the user says so

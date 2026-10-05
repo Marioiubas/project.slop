@@ -1,0 +1,21 @@
+# Rojo / build output
+/build/
+sourcemap.json
+*.rbxl.lock
+*.rbxlx.lock
+/*.rbxl
+/*.rbxlx
+
+# Wally
+/Packages/
+/ServerPackages/
+/DevPackages/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Claude Code per-machine files
+.claude/settings.local.json

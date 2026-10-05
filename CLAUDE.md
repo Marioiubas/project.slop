@@ -8,5 +8,6 @@ Read, in this order, at the start of every session:
 
 Non-negotiables:
 - Server is authoritative; the client only sends intent.
+- `lune run tools/check` must pass before you finish (format, lint, types, build, tests, content). Auto-format with `stylua src tests tools`.
 - One task per session; finish by updating `docs/dev-plan.md` and overwriting `HANDOFF.md` using the template in how-to-work.md.
 - Be honest about what was and wasn't verified.
